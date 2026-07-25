@@ -135,10 +135,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
       <header className="border-b border-white/10 bg-[#061a31] text-white">
-        <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-6 px-5 py-4 lg:px-8">
+        <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-6 px-5 py-3 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/30">
+            <div className="brl-logo-mark">
               <BookOpen className="h-7 w-7" />
+              <span className="brl-logo-ring brl-logo-ring-one" />
+              <span className="brl-logo-ring brl-logo-ring-two" />
+              <span className="brl-logo-ring brl-logo-ring-three" />
             </div>
 
             <div>
@@ -175,6 +178,7 @@ export default function Home() {
           <div className="hidden items-center gap-4 xl:flex">
             <label className="flex w-80 items-center gap-3 rounded-lg border border-white/10 bg-white/10 px-4 py-2.5">
               <Search className="h-4 w-4 text-slate-300" />
+
               <input
                 className="w-full bg-transparent text-sm text-white outline-none placeholder:text-slate-300"
                 placeholder="Search Scripture, Topics, BRLs..."
@@ -194,57 +198,58 @@ export default function Home() {
       </header>
 
       <section className="hero-background text-white">
-        <div className="mx-auto grid max-w-[1500px] gap-8 px-5 py-8 lg:grid-cols-[275px_1fr] lg:px-8">
+        <div className="relative z-10 mx-auto grid max-w-[1500px] gap-5 px-5 py-5 lg:grid-cols-[240px_1fr] lg:px-8">
           <aside className="start-here-panel">
-            <div className="mb-3 flex items-center gap-3">
-              <Star className="h-8 w-8 fill-current text-amber-400" />
-              <h2 className="font-serif text-2xl font-bold text-amber-400">
+            <div className="mb-2 flex items-center gap-2">
+              <Star className="h-7 w-7 fill-current text-amber-400" />
+
+              <h2 className="font-serif text-xl font-bold text-amber-400">
                 START HERE
               </h2>
             </div>
 
-            <p className="mb-4 text-sm leading-6 text-slate-100">
-              New to BRL? Let us guide you to the right tools and learning path
-              for your needs.
+            <p className="mb-3 text-sm leading-5 text-slate-100">
+              New to BRL? Let us guide you to the right tools and learning path.
             </p>
 
             <Link
               href="/start-here"
-              className="mb-5 flex items-center justify-center gap-2 rounded-lg bg-amber-400 px-4 py-3 font-semibold text-slate-950 transition hover:bg-amber-300"
+              className="mb-4 flex items-center justify-center gap-2 rounded-lg bg-amber-400 px-4 py-2.5 font-semibold text-slate-950 transition hover:bg-amber-300"
             >
               Get Started
-              <ArrowRight className="h-5 w-5" />
+              <ArrowRight className="h-4 w-4" />
             </Link>
 
-            <div className="grid grid-cols-2 gap-x-3 gap-y-3 text-xs">
+            <div className="grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
               {userPaths.map(({ label, icon: PathIcon }) => (
                 <div key={label} className="flex items-center gap-2">
-                  <PathIcon className="h-4 w-4 text-amber-400" />
+                  <PathIcon className="h-3.5 w-3.5 text-amber-400" />
                   <span>{label}</span>
                 </div>
               ))}
             </div>
           </aside>
 
-          <div className="grid items-center gap-8 xl:grid-cols-[1fr_280px]">
+          <div className="grid items-center gap-5 xl:grid-cols-[1fr_245px]">
             <div>
-              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.25em] text-amber-300">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
                 One Platform. Many Biblical Study Tools.
               </p>
 
-              <h1 className="max-w-4xl font-serif text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+              <h1 className="font-serif text-4xl font-bold leading-tight sm:text-5xl">
                 Searching God&apos;s Word
               </h1>
 
-              <p className="mt-2 font-serif text-2xl text-amber-300 sm:text-3xl">
+              <p className="mt-1 font-serif text-xl text-amber-300 sm:text-2xl">
                 Through Context. For the Church. For His Glory.
               </p>
 
-              <div className="mt-7 flex max-w-4xl overflow-hidden rounded-lg bg-white shadow-xl">
+              <div className="mt-4 flex max-w-4xl overflow-hidden rounded-lg bg-white shadow-xl">
                 <div className="flex flex-1 items-center gap-3 px-4">
                   <Search className="h-5 w-5 text-slate-500" />
+
                   <input
-                    className="w-full py-4 text-slate-950 outline-none placeholder:text-slate-500"
+                    className="w-full py-3 text-slate-950 outline-none placeholder:text-slate-500"
                     placeholder="Search Scripture, Topics, People, Places, or BRLs..."
                     aria-label="Search Scripture, topics, people, places, or BRLs"
                   />
@@ -269,7 +274,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-200">
+              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-slate-200">
                 <span className="font-semibold text-white">Quick Links:</span>
                 <Link href="/bible">John 3:16</Link>
                 <Link href="/bible">Romans 8:28</Link>
@@ -281,16 +286,16 @@ export default function Home() {
               </div>
             </div>
 
-            <blockquote className="rounded-xl border border-white/20 bg-slate-950/65 p-6 backdrop-blur-sm">
-              <Sparkles className="mb-3 h-6 w-6 text-amber-300" />
+            <blockquote className="rounded-xl border border-white/20 bg-slate-950/65 p-5 backdrop-blur-sm">
+              <Sparkles className="mb-2 h-5 w-5 text-amber-300" />
 
-              <p className="text-sm leading-7 text-slate-100">
+              <p className="text-sm leading-6 text-slate-100">
                 “All Scripture is breathed out by God and profitable for
                 teaching, for reproof, for correction, and for training in
                 righteousness.”
               </p>
 
-              <footer className="mt-4 font-semibold text-amber-300">
+              <footer className="mt-3 text-sm font-semibold text-amber-300">
                 2 Timothy 3:16-17
               </footer>
             </blockquote>
@@ -298,7 +303,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1500px] px-5 py-7 lg:px-8">
+      <section className="mx-auto max-w-[1500px] px-5 py-5 lg:px-8">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {modules.map((module) => {
             const Icon = module.icon;
@@ -311,6 +316,7 @@ export default function Home() {
               >
                 <div className={`mb-4 flex items-center gap-3 ${module.accent}`}>
                   <Icon className="h-8 w-8" />
+
                   <h2 className="font-serif text-xl font-bold">
                     {module.title}
                   </h2>
@@ -320,8 +326,11 @@ export default function Home() {
                   {module.description}
                 </p>
 
-                <span className={`mt-auto flex items-center gap-2 text-sm font-semibold ${module.accent}`}>
+                <span
+                  className={`mt-auto flex items-center gap-2 text-sm font-semibold ${module.accent}`}
+                >
                   {module.action}
+
                   <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
                 </span>
               </Link>
@@ -341,9 +350,11 @@ export default function Home() {
             <div className="text-xs font-semibold text-amber-800">
               BRL 110.001
             </div>
+
             <h3 className="mt-1 font-serif text-lg font-bold">
               Divine Authority
             </h3>
+
             <p className="mt-2 text-sm leading-6 text-slate-600">
               A foundational study of biblical authority, inspiration,
               sufficiency, and the revealed will of God.
@@ -351,7 +362,8 @@ export default function Home() {
           </div>
 
           <Link href="/library" className="panel-link">
-            Read now <ArrowRight className="h-4 w-4" />
+            Read now
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </article>
 
@@ -363,11 +375,13 @@ export default function Home() {
 
           <div className="space-y-4 text-sm">
             <ProgressItem title="The Godhead" code="BRL 210.002" value={50} />
+
             <ProgressItem
               title="Baptism in the New Testament"
               code="BRL 410.003"
               value={75}
             />
+
             <ProgressItem
               title="God Established Worship"
               code="BRL 420.001"
@@ -389,7 +403,8 @@ export default function Home() {
           </div>
 
           <Link href="/library" className="panel-link">
-            View all studies <ArrowRight className="h-4 w-4" />
+            View all studies
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </article>
 
@@ -443,6 +458,7 @@ function ProgressItem({
           <div className="font-semibold">{title}</div>
           <div className="text-xs text-slate-500">{code}</div>
         </div>
+
         <div className="text-xs font-semibold text-slate-600">{value}%</div>
       </div>
 
