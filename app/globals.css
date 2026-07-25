@@ -30,22 +30,7 @@ select {
   font: inherit;
 }
 
-.hero-background {
-  background:
-    linear-gradient(
-      90deg,
-      rgba(3, 18, 35, 0.98) 0%,
-      rgba(5, 31, 58, 0.93) 42%,
-      rgba(11, 48, 79, 0.78) 70%,
-      rgba(38, 55, 70, 0.75) 100%
-    ),
-    radial-gradient(
-      circle at 88% 25%,
-      rgba(251, 191, 36, 0.35),
-      transparent 22%
-    ),
-    linear-gradient(145deg, #09233e, #183954 50%, #0b1d31);
-}
+/* Navigation */
 
 .nav-link {
   position: relative;
@@ -55,11 +40,11 @@ select {
 }
 
 .nav-link:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .nav-link-active {
-  color: white;
+  color: #ffffff;
 }
 
 .nav-link-active::after {
@@ -72,48 +57,169 @@ select {
   background: #60a5fa;
 }
 
+/* BRL Logo */
+
+.brl-logo-mark {
+  position: relative;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.brl-logo-mark svg {
+  position: relative;
+  z-index: 2;
+}
+
+.brl-logo-ring {
+  position: absolute;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  border-radius: 999px;
+}
+
+.brl-logo-ring-one {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.brl-logo-ring-two {
+  width: 1.65rem;
+  height: 1.65rem;
+}
+
+.brl-logo-ring-three {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+/* Hero Banner */
+
+.hero-background {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 18, 35, 0.99) 0%,
+      rgba(5, 31, 58, 0.95) 45%,
+      rgba(11, 48, 79, 0.8) 75%,
+      rgba(38, 55, 70, 0.72) 100%
+    ),
+    radial-gradient(
+      circle at 91% 18%,
+      rgba(251, 191, 36, 0.38),
+      transparent 20%
+    ),
+    linear-gradient(
+      145deg,
+      #071a2f,
+      #123755 52%,
+      #182d40
+    );
+}
+
+.hero-background::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    radial-gradient(
+      circle at 86% 15%,
+      rgba(255, 226, 145, 0.13),
+      transparent 15%
+    ),
+    linear-gradient(
+      115deg,
+      transparent 0%,
+      transparent 58%,
+      rgba(255, 255, 255, 0.025) 72%,
+      transparent 100%
+    );
+}
+
+.hero-background::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.03),
+      transparent 35%,
+      rgba(2, 12, 27, 0.15)
+    );
+}
+
+/* Start Here Panel */
+
 .start-here-panel {
-  border: 1px solid rgba(251, 191, 36, 0.8);
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  border: 1px solid rgba(251, 191, 36, 0.82);
   border-radius: 1rem;
   background:
     linear-gradient(
       145deg,
-      rgba(11, 28, 48, 0.98),
-      rgba(12, 41, 70, 0.94)
+      rgba(7, 26, 47, 0.98),
+      rgba(11, 45, 76, 0.95)
     );
-  padding: 1.5rem;
+  padding: 1.15rem;
   box-shadow:
-    0 0 0 1px rgba(251, 191, 36, 0.15),
-    0 10px 35px rgba(0, 0, 0, 0.35),
-    0 0 28px rgba(251, 191, 36, 0.18);
+    0 0 0 1px rgba(251, 191, 36, 0.12),
+    0 8px 24px rgba(0, 0, 0, 0.3),
+    0 0 22px rgba(251, 191, 36, 0.15);
 }
+
+/* Module Cards */
 
 .module-card {
   display: flex;
-  min-height: 230px;
+  min-height: 215px;
   flex-direction: column;
   border: 1px solid #e2e8f0;
   border-radius: 0.9rem;
-  background: white;
-  padding: 1.4rem;
+  background: #ffffff;
+  padding: 1.25rem;
   box-shadow: 0 3px 14px rgba(15, 23, 42, 0.05);
   transition:
-    transform 160ms ease,
-    border-color 160ms ease,
-    box-shadow 160ms ease;
+    transform 170ms ease,
+    border-color 170ms ease,
+    box-shadow 170ms ease;
 }
 
 .module-card:hover {
-  transform: translateY(-3px);
-  border-color: #bfdbfe;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+  transform: translateY(-5px);
+  border-color: #93c5fd;
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.12),
+    0 0 0 1px rgba(147, 197, 253, 0.25);
 }
+
+.module-card svg {
+  transition: transform 170ms ease;
+}
+
+.module-card:hover svg {
+  transform: scale(1.08);
+}
+
+/* Information Panels */
 
 .information-panel {
   min-height: 285px;
   border: 1px solid #e2e8f0;
   border-radius: 0.9rem;
-  background: white;
+  background: #ffffff;
   padding: 1.35rem;
   box-shadow: 0 3px 14px rgba(15, 23, 42, 0.04);
 }
@@ -141,6 +247,31 @@ select {
   color: #1e40af;
 }
 
+/* Responsive Adjustments */
+
+@media (max-width: 1279px) {
+  .hero-background {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(3, 18, 35, 0.99) 0%,
+        rgba(5, 31, 58, 0.96) 58%,
+        rgba(11, 48, 79, 0.82) 100%
+      ),
+      radial-gradient(
+        circle at 91% 18%,
+        rgba(251, 191, 36, 0.3),
+        transparent 23%
+      ),
+      linear-gradient(
+        145deg,
+        #071a2f,
+        #123755 52%,
+        #182d40
+      );
+  }
+}
+
 @media (max-width: 1023px) {
   .start-here-panel {
     max-width: 520px;
@@ -150,5 +281,18 @@ select {
 @media (max-width: 640px) {
   .module-card {
     min-height: auto;
+  }
+
+  .information-panel {
+    min-height: auto;
+  }
+
+  .hero-background {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(3, 18, 35, 0.99) 0%,
+        rgba(5, 31, 58, 0.97) 100%
+      );
   }
 }
