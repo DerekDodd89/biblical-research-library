@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { BookOpen, Play } from "lucide-react";
 
 import type { ContextCircleStudy } from "@/types/context-circle";
@@ -22,22 +23,31 @@ export default function PassageSetup({
   study,
   onStudyChange,
 }: PassageSetupProps) {
-  function updateStudy(changes: Partial<ContextCircleStudy>) {
-    onStudyChange({
-      ...study,
-      ...changes,
-    });
-  }
+  const [passageDraft, setPassageDraft] = useState(study.passage);
+  const [translationDraft, setTranslationDraft] = useState(
+    study.translation ?? "ESV",
+  );
+
+  useEffect(() => {
+    setPassageDraft(study.passage);
+  }, [study.passage]);
+
+  useEffect(() => {
+    setTranslationDraft(study.translation ?? "ESV");
+  }, [study.translation]);
+
+  const cleanedPassage = passageDraft.trim();
+  const canBeginStudy = cleanedPassage.length > 0;
 
   function beginStudy() {
-    const passage = study.passage.trim();
-
-    if (!passage) {
+    if (!canBeginStudy) {
       return;
     }
 
-    updateStudy({
-      passage,
+    onStudyChange({
+      ...study,
+      passage: cleanedPassage,
+      translation: translationDraft,
       stage: "dc",
     });
   }
@@ -53,12 +63,8 @@ export default function PassageSetup({
 
           <input
             type="text"
-            value={study.passage}
-            onChange={(event) =>
-              updateStudy({
-                passage: event.target.value,
-              })
-            }
+            value={passageDraft}
+            onChange={(event) => setPassageDraft(event.target.value)}
             onKeyDown={(event) => {
               if (event.key === "Enter") {
                 beginStudy();
@@ -75,12 +81,8 @@ export default function PassageSetup({
           </span>
 
           <select
-            value={study.translation ?? "ESV"}
-            onChange={(event) =>
-              updateStudy({
-                translation: event.target.value,
-              })
-            }
+            value={translationDraft}
+            onChange={(event) => setTranslationDraft(event.target.value)}
             className="w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-950 outline-none transition focus:border-blue-700 focus:ring-2 focus:ring-blue-100"
           >
             {translations.map((translation) => (
@@ -94,7 +96,7 @@ export default function PassageSetup({
         <button
           type="button"
           onClick={beginStudy}
-          disabled={!study.passage.trim()}
+          disabled={!canBeginStudy}
           className="inline-flex h-[42px] items-center justify-center gap-2 rounded-lg bg-blue-950 px-5 text-sm font-semibold text-white transition hover:bg-blue-800 disabled:cursor-not-allowed disabled:bg-slate-300"
         >
           <Play className="h-4 w-4" />
