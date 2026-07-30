@@ -32,7 +32,11 @@ export default function SiteFooter() {
             className="inline-flex items-center gap-3"
             aria-label={`${BRAND.name} home`}
           >
-            <BRLLogo className="h-12 w-12" />
+            <BRLLogo
+              variant="mark"
+              size="medium"
+              link={false}
+            />
 
             <div>
               <p className="font-serif text-xl font-bold text-white">
@@ -113,9 +117,7 @@ export default function SiteFooter() {
             © {currentYear} {BRAND.name}. All rights reserved.
           </p>
 
-          <p>
-            Study carefully. Handle the word of truth accurately.
-          </p>
+          <p>Study carefully. Handle the word of truth accurately.</p>
         </div>
       </div>
     </footer>
