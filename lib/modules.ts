@@ -10,98 +10,99 @@ import {
   Users,
   Wrench,
 } from "lucide-react";
+
 import type { ModuleCardData } from "@/components/home/ModuleCard";
 import { BRAND } from "@/constants/brand";
 
 export const modules: ModuleCardData[] = [
   {
     title: "Bible",
-    description:
-      "Read Scripture and study with translations, cross-references, word tools, and contextual resources.",
+    description: "Read His Word.",
     href: BRAND.routes.bible,
     action: "Open Bible",
     icon: BookOpen,
-    accent: "text-blue-700",
+    accent: "text-blue-300",
+    image: "/images/modules/01-bible.jpg",
   },
   {
     title: "Context Circle",
-    description:
-      "Work through Direct, Remote, and Total Context using BRL's signature guided study system.",
+    description: "Study His Word.",
     href: BRAND.routes.contextCircle,
     action: "Open Context Circle",
     icon: CircleDot,
-    accent: "text-teal-700",
+    accent: "text-teal-300",
+    image: "/images/modules/02-context-circle.png",
   },
   {
     title: "Research Library",
-    description:
-      "Explore BRLs, articles, outlines, historical studies, research archives, and reference material.",
+    description: "Preserve His Word.",
     href: BRAND.routes.library,
     action: "Browse Library",
     icon: Library,
-    accent: "text-violet-800",
+    accent: "text-violet-300",
+    image: "/images/modules/03-research-library.png",
   },
   {
     title: "Academy",
-    description:
-      "Follow courses, certifications, guided learning paths, assignments, and structured Bible studies.",
+    description: "Learn His Word.",
     href: BRAND.routes.academy,
     action: "Go to Academy",
     icon: GraduationCap,
-    accent: "text-blue-800",
+    accent: "text-blue-300",
+    image: "/images/modules/04-academy.png",
   },
   {
     title: "Church Curriculum",
-    description:
-      "Biblical curriculum for congregations, teachers, families, ministries, and every stage of growth.",
+    description: "Teach His Word.",
     href: BRAND.routes.churchCurriculum,
     action: "View Curriculum",
     icon: Users,
-    accent: "text-green-800",
+    accent: "text-green-300",
+    image: "/images/modules/05-curriculum.png",
   },
   {
     title: "Doctrine Explorer",
-    description:
-      "Study major biblical subjects through Scripture, context, hermeneutics, and organized BRL research.",
+    description: "Defend His Word.",
     href: BRAND.routes.doctrine,
     action: "Explore Doctrine",
     icon: Compass,
-    accent: "text-amber-800",
+    accent: "text-amber-300",
+    image: "/images/modules/06-doctrine-explorer.png",
   },
   {
     title: "Bible Atlas",
-    description:
-      "Explore maps, journeys, places, nations, timelines, and the historical setting of Scripture.",
+    description: "Walk His World.",
     href: BRAND.routes.atlas,
     action: "Open Atlas",
     icon: Map,
-    accent: "text-blue-700",
+    accent: "text-cyan-300",
+    image: "/images/modules/07-bible-atlas.png",
   },
   {
     title: "Sermons & Outlines",
-    description:
-      "Access sermons, class outlines, teaching resources, presentations, and preaching material.",
+    description: "Preach His Word.",
     href: BRAND.routes.sermons,
     action: "Browse Messages",
     icon: Mic2,
-    accent: "text-purple-800",
+    accent: "text-purple-300",
+    image: "/images/modules/08-sermons.png",
   },
   {
     title: "My Workspace",
-    description:
-      "Save studies, organize notes, create collections, track progress, and manage personal research.",
+    description: "Build with His Word.",
     href: BRAND.routes.workspace,
     action: "Go to Workspace",
     icon: BriefcaseBusiness,
-    accent: "text-purple-800",
+    accent: "text-indigo-300",
+    image: "/images/modules/09-workspace.png",
   },
   {
     title: "Tools & Resources",
-    description:
-      "Access word studies, concordances, timelines, commentaries, worksheets, and supporting tools.",
+    description: "Support His Word.",
     href: BRAND.routes.tools,
     action: "Explore Tools",
     icon: Wrench,
-    accent: "text-orange-700",
+    accent: "text-orange-300",
+    image: "/images/modules/10-tools.png",
   },
 ];
