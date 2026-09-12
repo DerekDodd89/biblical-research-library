@@ -11,13 +11,13 @@ export type SermonSeries = {
 
 export const sermonSeries: SermonSeries[] = [
   {
-    id: "BRL-SERIES-000001",
+    id: "BRL-SERIES-410.003",
     slug: "do-you-know-god",
     title: "Do You Know God?",
     description:
       "A sermon series designed to move Christians beyond merely knowing facts about God toward recognizing His character, priorities, and desire for fellowship.",
     status: "published",
-    sermonIds: ["BRL-S000001"],
+    sermonIds: ["BRL-SER-410.003"],
   },
 ];
 

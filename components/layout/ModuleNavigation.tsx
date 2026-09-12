@@ -22,7 +22,7 @@ export default function ModuleNavigation({
       <div className="flex flex-wrap items-center gap-3">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-neutral-200 transition hover:border-amber-300/50 hover:text-amber-200"
+          className="inline-flex items-center gap-2 rounded-lg border #8b6a2b bg-white/5 px-4 py-2 text-sm font-semibold text-neutral-200 transition hover:border-amber-300/50 hover:text-amber-200"
         >
           <Home className="h-4 w-4" />
           BRL Home
@@ -30,7 +30,7 @@ export default function ModuleNavigation({
 
         <Link
           href={fallbackHref}
-          className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-neutral-200 transition hover:border-amber-300/50 hover:text-amber-200"
+          className="inline-flex items-center gap-2 rounded-lg border #8b6a2b bg-white/5 px-4 py-2 text-sm font-semibold text-neutral-200 transition hover:border-amber-300/50 hover:text-amber-200"
         >
           <ArrowLeft className="h-4 w-4" />
           {fallbackLabel}

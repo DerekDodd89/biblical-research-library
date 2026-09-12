@@ -62,7 +62,7 @@ export const BRAND = {
     bibleAtlas: "#1D4ED8",
     sermons: "#7E22CE",
     workspace: "#6B21A8",
-    tools: "#C2410C",
+    missions: "#C2410C",
   },
 
   typography: {
@@ -98,12 +98,12 @@ export const BRAND = {
     contextCircle: "/context-circle",
     library: "/library",
     academy: "/academy",
-    churchCurriculum: "/church-curriculum",
+    churchCurriculum: "/curriculum",
     doctrine: "/doctrine",
     atlas: "/atlas",
     sermons: "/sermons",
     workspace: "/workspace",
-    tools: "/tools",
+    missions: "/missions",
     login: "/login",
   },
 

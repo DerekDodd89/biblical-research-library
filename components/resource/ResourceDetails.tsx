@@ -174,7 +174,7 @@ export default function ResourceDetails({
         </section>
       </div>
 
-      <aside className="space-y-4 border-white/10 xl:border-l xl:pl-5">
+      <aside className="space-y-4 #8b6a2b xl:border-l xl:pl-5">
         <section className="rounded-2xl border border-white/20 bg-black/45 p-5 backdrop-blur-sm">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
             Sermon Length
@@ -195,7 +195,7 @@ export default function ResourceDetails({
                 return (
                   <div
                     key={minutes}
-                    className="rounded-lg border border-white/10 bg-black/30 px-3 py-3 text-center text-sm text-neutral-600"
+                    className="rounded-lg border #8b6a2b bg-black/30 px-3 py-3 text-center text-sm text-neutral-600"
                   >
                     {minutes} min
                   </div>
@@ -237,7 +237,7 @@ export default function ResourceDetails({
                   <Link
                     key={related.id}
                     href={related.href}
-                    className="flex items-center justify-between gap-3 border-b border-white/10 bg-black/20 px-4 py-3 text-sm transition last:border-b-0 hover:bg-white/5"
+                    className="flex items-center justify-between gap-3 border-b #8b6a2b bg-black/20 px-4 py-3 text-sm transition last:border-b-0 hover:bg-white/5"
                   >
                     <span>
                       <strong className="text-amber-300">
@@ -254,7 +254,7 @@ export default function ResourceDetails({
                 ) : (
                   <div
                     key={related.id}
-                    className="border-b border-white/10 bg-black/20 px-4 py-3 text-sm last:border-b-0"
+                    className="border-b #8b6a2b bg-black/20 px-4 py-3 text-sm last:border-b-0"
                   >
                     <strong className="text-amber-300">
                       {related.id}
@@ -387,7 +387,7 @@ function FormatCard({
   }
 
   return (
-    <div className="min-h-44 rounded-xl border border-white/10 bg-black/30 p-4 opacity-60">
+    <div className="min-h-44 rounded-xl border #8b6a2b bg-black/30 p-4 opacity-60">
       {content}
     </div>
   );
@@ -442,7 +442,7 @@ function CompletePackageCard({
   }
 
   return (
-    <div className="mt-3 rounded-xl border border-white/10 bg-black/30 p-4 opacity-60">
+    <div className="mt-3 rounded-xl border #8b6a2b bg-black/30 p-4 opacity-60">
       {content}
     </div>
   );
@@ -460,7 +460,7 @@ function FileDetailRow({
   value,
 }: FileDetailRowProps) {
   return (
-    <div className="grid grid-cols-[18px_104px_minmax(0,1fr)] items-center gap-3 border-b border-white/10 py-2.5 last:border-b-0">
+    <div className="grid grid-cols-[18px_104px_minmax(0,1fr)] items-center gap-3 border-b #8b6a2b py-2.5 last:border-b-0">
       <Icon className="h-4 w-4 text-neutral-400" />
 
       <span className="text-neutral-400">

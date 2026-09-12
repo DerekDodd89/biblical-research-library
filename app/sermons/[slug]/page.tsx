@@ -29,16 +29,24 @@ export default async function SermonDetailsPage({
   }
 
   const requestedLength = Number(length);
+
   const selectedLength =
     requestedLength === 20 ||
     requestedLength === 30 ||
     requestedLength === 40
       ? requestedLength
-      : 30;
+      : sermon.estimatedMinutes;
 
-  const l2OutlineHref =
-    `/downloads/sermons/BRL-S000001/` +
-    `BRL-S000001-${selectedLength}min-L2-Outline.pdf`;
+  const downloadBase = `/downloads/sermons/${sermon.resources.downloadFolder}`;
+
+  const selectedL2 =
+    sermon.resources.l2[
+      selectedLength as keyof typeof sermon.resources.l2
+    ];
+
+  const l2OutlineHref = selectedL2
+    ? `${downloadBase}/${selectedL2}`
+    : undefined;
 
   const resource: ResourceDetailData = {
     id: sermon.id,
@@ -47,26 +55,39 @@ export default async function SermonDetailsPage({
     moduleName: "Sermons & Outlines",
 
     series: sermon.series,
-    seriesHref: "/sermons/series/do-you-know-god",
-    seriesId: "BRL-SERIES-000001",
+    seriesHref: sermon.series
+      ? `/sermons/series/${sermon.series
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "")}`
+      : undefined,
+    seriesId: sermon.series ? sermon.series : undefined,
 
     primaryText: sermon.primaryText,
     speaker: sermon.speaker,
     audience: sermon.audience,
     standardLength: sermon.estimatedMinutes,
-    status: "Published",
+    status: sermon.status === "published" ? "Published" : "Draft",
     version: "1.0",
 
     proposition: sermon.proposition,
     preview: sermon.introduction.slice(0, 7),
 
-    availableLengths: [20, 30, 40],
+    availableLengths: (
+      Object.keys(sermon.resources.l2)
+        .map(Number)
+        .filter(
+          (value): value is 20 | 30 | 40 =>
+            value === 20 || value === 30 || value === 40
+        )
+    ),
+
     selectedLength,
     lengthSelectorHref: `/sermons/${sermon.slug}`,
 
     author: sermon.speaker,
     dateWritten: "Not recorded",
-    lastUpdated: "August 3, 2026",
+    lastUpdated: "August 2026",
     publicationDate: "August 2026",
     language: "English",
 
@@ -81,48 +102,56 @@ export default async function SermonDetailsPage({
         description:
           "A concise, printable preaching outline prepared for the selected sermon length.",
         actionLabel: "Download PDF",
-        href: l2OutlineHref,
-        available: true,
+        href: l2OutlineHref ?? "#",
+        available: Boolean(l2OutlineHref),
         icon: "outline",
       },
+
       {
         title: "L3 Sermon Archive",
         description:
           "The complete canonical sermon archive with expanded development.",
         actionLabel: "Download PDF",
-        href:
-          "/downloads/sermons/BRL-S000001/BRL-S000001-L3-Sermon-Archive.pdf",
-        available: true,
+        href: sermon.resources.l3Archive
+          ? `${downloadBase}/${sermon.resources.l3Archive}`
+          : "#",
+        available: Boolean(sermon.resources.l3Archive),
         icon: "archive",
       },
+
       {
         title: "PowerPoint",
         description:
           "Presentation slides prepared for preaching and teaching.",
         actionLabel: "Download PPTX",
-        href:
-          "/downloads/sermons/BRL-S000001/BRL-S000001-Presentation.pptx",
-        available: true,
+        href: sermon.resources.powerpoint
+          ? `${downloadBase}/${sermon.resources.powerpoint}`
+          : "#",
+        available: Boolean(sermon.resources.powerpoint),
         icon: "powerpoint",
       },
+
       {
         title: "Listener Handout",
         description:
           "A printable resource for listeners, classes, and group study.",
         actionLabel: "Download PDF",
-        href:
-          "/downloads/sermons/BRL-S000001/BRL-S000001-Listener-Handout.pdf",
-        available: true,
+        href: sermon.resources.handout
+          ? `${downloadBase}/${sermon.resources.handout}`
+          : "#",
+        available: Boolean(sermon.resources.handout),
         icon: "handout",
       },
+
       {
         title: "Download Complete Sermon Package",
         description:
           "All timed L2 outlines, the L3 archive, presentation, and listener handout.",
         actionLabel: "Download ZIP",
-        href:
-          "/downloads/sermons/BRL-S000001/BRL-S000001-Complete-Sermon-Package.zip",
-        available: true,
+        href: sermon.resources.package
+          ? `${downloadBase}/${sermon.resources.package}`
+          : "#",
+        available: Boolean(sermon.resources.package),
         icon: "package",
       },
     ],

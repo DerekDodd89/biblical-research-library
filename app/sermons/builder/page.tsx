@@ -1,14 +1,12 @@
 import ModuleNavigation from "@/components/layout/ModuleNavigation";
-
-import BuilderSidebar from "@/components/sermons/BuilderSidebar";
-import BuilderWorkspace from "@/components/sermons/BuilderWorkspace";
-import BuilderInspector from "@/components/sermons/BuilderInspector";
+import SermonEngine from "@/components/sermons/SermonEngine";
 
 export default function SermonBuilderPage() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-neutral-950 text-white">
 
       <div
+        aria-hidden="true"
         className="pointer-events-none fixed inset-0 bg-cover bg-center bg-no-repeat opacity-[0.15]"
         style={{
           backgroundImage:
@@ -16,24 +14,27 @@ export default function SermonBuilderPage() {
         }}
       />
 
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 bg-neutral-950/20"
+      />
+
       <div className="relative z-10 flex h-screen flex-col">
 
-        <div className="px-8 pt-8">
+        <div className="px-8 pt-5">
+
           <ModuleNavigation
             moduleName="Sermons & Outlines"
-            currentPage="Sermon Builder"
+            currentPage="Sermon Engine"
             fallbackHref="/sermons"
             fallbackLabel="Back"
           />
+
         </div>
 
-        <div className="flex flex-1 overflow-hidden">
+        <div className="flex-1 overflow-hidden">
 
-          <BuilderSidebar />
-
-          <BuilderWorkspace />
-
-          <BuilderInspector />
+          <SermonEngine />
 
         </div>
 

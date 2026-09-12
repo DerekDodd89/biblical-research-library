@@ -5,7 +5,7 @@ import BRLLogo from "@/components/branding/BRLLogo";
 
 export default function SiteHeader() {
   return (
-    <header className="border-b border-white/10 bg-[#061a31] text-white">
+    <header className="border-b #8b6a2b bg-[#061a31] text-white">
       <div className="flex w-full items-center justify-between px-5 py-3">
         <BRLLogo
           link={true}
