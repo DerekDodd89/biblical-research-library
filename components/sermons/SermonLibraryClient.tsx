@@ -41,20 +41,62 @@ export default function SermonLibraryClient() {
   }, [query, sermons]);
 
   return (
-    <main className="flex h-screen overflow-hidden bg-[#08111d] text-white">
-      <SermonSidebar />
+    <main className="relative min-h-screen bg-[#08111d] text-white lg:h-screen lg:overflow-hidden">
 
-      <section className="flex flex-1 flex-col overflow-hidden">
-        <LibraryHeader sermons={sermons} />
+      {/* John 1 Codex Background */}
 
-        <div className="flex-1 overflow-auto px-0 pb-6 pt-0">
-          <SearchResultsPanel
-            sermons={filteredSermons}
-            query={query}
-            onQueryChange={setQuery}
-          />
-        </div>
-      </section>
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "url('/images/modules/11-Johns-Codex.png')",
+        }}
+      />
+
+      {/* Dark Overlay */}
+
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 bg-black/55"
+      />
+
+      {/* =========================================================
+          SERMON LIBRARY
+          Mobile: stacked vertically
+          Desktop: sidebar + content
+          ========================================================= */}
+
+      <div className="relative z-10 min-h-screen lg:flex lg:h-full">
+
+        {/* Responsive Sermon Navigation */}
+
+        <SermonSidebar />
+
+        {/* Main Search Library */}
+
+        <section className="min-w-0 flex-1 lg:flex lg:flex-col lg:overflow-hidden">
+
+          {/* Library Header */}
+
+          <LibraryHeader sermons={sermons} />
+
+          {/* Search Results */}
+
+          <div className="min-w-0 pb-6 lg:flex-1 lg:overflow-auto">
+
+            <SearchResultsPanel
+              sermons={filteredSermons}
+              query={query}
+              onQueryChange={setQuery}
+            />
+
+          </div>
+
+        </section>
+
+      </div>
+
     </main>
   );
 }

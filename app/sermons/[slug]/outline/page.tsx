@@ -15,7 +15,7 @@ export default async function SermonOutlinePage({
   const { slug } = await params;
   const sermon = getSermonBySlug(slug);
 
-  if (!sermon) {
+  if (!sermon || sermon.sections.length === 0) {
     notFound();
   }
 
@@ -72,7 +72,7 @@ export default async function SermonOutlinePage({
 
                 <p>
                   <span className="text-neutral-500">Length:</span>{" "}
-                  {sermon.estimatedMinutes} minutes
+                  {sermon.estimatedMinutes ? sermon.estimatedMinutes + " minutes" : "Length not recorded"}
                 </p>
               </div>
             </header>

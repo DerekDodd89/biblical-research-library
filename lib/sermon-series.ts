@@ -1,38 +1,12 @@
-import { getSermonById, type Sermon } from "@/lib/sermons";
+import { getPublishedSermons, type Sermon } from "@/lib/sermons";
 
-export type SermonSeries = {
-  id: string;
-  slug: string;
-  title: string;
-  description: string;
-  status: "draft" | "published";
-  sermonIds: string[];
-};
-
-export const sermonSeries: SermonSeries[] = [
-  {
-    id: "BRL-SERIES-410.003",
-    slug: "do-you-know-god",
-    title: "Do You Know God?",
-    description:
-      "A sermon series designed to move Christians beyond merely knowing facts about God toward recognizing His character, priorities, and desire for fellowship.",
-    status: "published",
-    sermonIds: ["BRL-SER-410.003"],
-  },
-];
-
-export function getPublishedSermonSeries(): SermonSeries[] {
-  return sermonSeries.filter((series) => series.status === "published");
-}
-
-export function getSermonSeriesBySlug(
-  slug: string,
-): SermonSeries | undefined {
-  return sermonSeries.find((series) => series.slug === slug);
-}
-
-export function getSermonsForSeries(series: SermonSeries): Sermon[] {
-  return series.sermonIds
-    .map((sermonId) => getSermonById(sermonId))
-    .filter((sermon): sermon is Sermon => sermon !== undefined);
-}
+export type SermonSeries = {id:string;slug:string;title:string;description:string;status:"published";sermonIds:string[]};
+const names=[...new Set(getPublishedSermons().map(s=>s.series).filter(Boolean))].sort();
+// Internal route keys are not assigned BRL series IDs.
+export const sermonSeries:SermonSeries[]=names.map(title=>({
+  id:title,slug:encodeURIComponent(title),title,description:"",status:"published",
+  sermonIds:getPublishedSermons().filter(s=>s.series===title).map(s=>s.id)
+}));
+export function getPublishedSermonSeries(){return sermonSeries;}
+export function getSermonSeriesBySlug(slug:string){return sermonSeries.find(s=>s.slug===slug || s.title===slug);}
+export function getSermonsForSeries(series:SermonSeries):Sermon[]{return getPublishedSermons().filter(s=>series.sermonIds.includes(s.id)).sort((a,b)=>(a.seriesSequence ?? Infinity)-(b.seriesSequence ?? Infinity) || a.title.localeCompare(b.title));}

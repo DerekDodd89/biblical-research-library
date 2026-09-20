@@ -124,7 +124,7 @@ export default function SermonLibraryPage() {
                         </span>
 
                         <span className="text-sm text-neutral-400">
-                          {sermon.estimatedMinutes} minutes
+                          {sermon.estimatedMinutes ? sermon.estimatedMinutes + " minutes" : "Length not recorded"}
                         </span>
                       </div>
 

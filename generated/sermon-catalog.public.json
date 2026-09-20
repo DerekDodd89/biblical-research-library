@@ -1,0 +1,4339 @@
+{
+  "packages": [
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.001",
+      "slug": "the-direction-of-worship-ef18d703579c",
+      "id": "BRL-SER-410.001",
+      "title": "The Direction of Worship",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Biblical Worship",
+      "seriesSequence": null,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "John 4:23-24"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "101eaa8dc26e36e21c782d0d078a20b13bcc479fd049254ad3eefaef398d7834",
+      "resources": [
+        {
+          "resourceKey": "l3-section-01",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive.docx",
+          "bytes": 18049,
+          "sha256": "8bb3cdf953b47566a31ebad137cf0fecd49cb22dada0ec41c589225cd8d39c99",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive.docx"
+        },
+        {
+          "resourceKey": "l3-section-02",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section II Prayer.docx",
+          "bytes": 19671,
+          "sha256": "28faecac3211c42bffa191a67c4a4c085ba4e5bc2c080aa512f415733e852058",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20II%20Prayer.docx"
+        },
+        {
+          "resourceKey": "l3-section-03",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section III Singing.docx",
+          "bytes": 19823,
+          "sha256": "a48ba41b72e356a73d82f6caa23373db1a0cbb6c213a2d65abeedde4865d04db",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20III%20Singing.docx"
+        },
+        {
+          "resourceKey": "l3-section-04",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section IV The Lord's Supper.docx",
+          "bytes": 20720,
+          "sha256": "5fd5869e499a14733528052fcaf475df1ad495a99d23b1d07bf4016f420c88bb",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20IV%20The%20Lord's%20Supper.docx"
+        },
+        {
+          "resourceKey": "l3-section-05",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section V The Collection.docx",
+          "bytes": 19652,
+          "sha256": "d879ab6bcc05200443b10e06affc736316af20b8c2bc143a8840b7f4863a2cdc",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20V%20The%20Collection.docx"
+        },
+        {
+          "resourceKey": "l3-section-06",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section VI The Word of God.docx",
+          "bytes": 20273,
+          "sha256": "ce287bca5ae5fbb9d4691b5bd56aa8cef9468b7d29fbe9277e12525d766eb11d",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20VI%20The%20Word%20of%20God.docx"
+        },
+        {
+          "resourceKey": "l3-section-07",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section VII The Unity of Worship.docx",
+          "bytes": 19682,
+          "sha256": "5b522a4e2d5111e143ae8537b5e7835dcd6dedb7e7601c984120ef4e0cb338f5",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.001/01-l3/BRL-SER-410.001%20-%20The%20Direction%20of%20Worship%20L3%20-%20Sermon%20Archive%20Section%20VII%20The%20Unity%20of%20Worship.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.001",
+        "slug": "the-direction-of-worship",
+        "title": "The Direction of Worship",
+        "subtitle": "Understanding the Divine Direction of Every Act of Worship",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Biblical Worship",
+          "sequence": null
+        },
+        "mainText": [
+          "John 4:23-24"
+        ],
+        "supportingScriptures": [
+          "Acts 2:42",
+          "Acts 20:7",
+          "1 Timothy 2:1-8",
+          "Matthew 6:5-13",
+          "John 16:23-24",
+          "Ephesians 5:20",
+          "Philippians 4:6",
+          "Hebrews 4:14-16",
+          "Ephesians 5:19-20",
+          "Colossians 3:16",
+          "Psalm 95:1-2",
+          "Hebrews 13:15",
+          "Luke 22:19-20",
+          "1 Corinthians 10:16-17",
+          "1 Corinthians 11:23-29",
+          "1 Corinthians 16:1-2",
+          "2 Corinthians 8-9",
+          "Acts 4:32-37",
+          "Philippians 4:15-19",
+          "Matthew 28:18-20",
+          "Acts 8:4-5",
+          "Romans 10:17",
+          "2 Timothy 4:1-5",
+          "Nehemiah 8:1-8",
+          "Hebrews 10:24-25"
+        ],
+        "sermonType": "Expository / Topical",
+        "theme": "Every act of biblical worship has a God-given direction. When we misunderstand the direction of worship, we misunderstand the purpose of worship.",
+        "proposition": "God designed every act of worship with a specific direction and purpose. Biblical worship becomes richer and more meaningful when we understand where each act is directed and why God gave it.",
+        "sermonQuestion": "What direction is each act of worship actually going?",
+        "version": "1.0",
+        "outline": [
+          {
+            "point": 1,
+            "heading": "Prayer",
+            "summary": "Prayer ascends to God.",
+            "primaryReference": "1 Timothy 2:1-8"
+          },
+          {
+            "point": 2,
+            "heading": "Singing",
+            "summary": "Praise is offered to God while encouraging fellow believers.",
+            "primaryReference": "Ephesians 5:19-20"
+          },
+          {
+            "point": 3,
+            "heading": "The Lord's Supper",
+            "summary": "The church remembers Christ's sacrifice while proclaiming His death.",
+            "primaryReference": "1 Corinthians 11:23-29"
+          },
+          {
+            "point": 4,
+            "heading": "The Collection",
+            "summary": "Giving reflects stewardship and supports the work God has entrusted to His people.",
+            "primaryReference": "1 Corinthians 16:1-2"
+          },
+          {
+            "point": 5,
+            "heading": "The Word of God",
+            "summary": "God's revealed message is proclaimed to mankind.",
+            "primaryReference": "Matthew 28:18-20"
+          }
+        ],
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l3-section-01",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive.docx"
+          },
+          {
+            "resourceKey": "l3-section-02",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section II Prayer.docx"
+          },
+          {
+            "resourceKey": "l3-section-03",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section III Singing.docx"
+          },
+          {
+            "resourceKey": "l3-section-04",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section IV The Lord's Supper.docx"
+          },
+          {
+            "resourceKey": "l3-section-05",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section V The Collection.docx"
+          },
+          {
+            "resourceKey": "l3-section-06",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section VI The Word of God.docx"
+          },
+          {
+            "resourceKey": "l3-section-07",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.001 - The Direction of Worship L3 - Sermon Archive Section VII The Unity of Worship.docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.002",
+      "slug": "the-plan-of-salvation-0efc25d85dd6",
+      "id": "BRL-SER-410.002",
+      "title": "The Plan of Salvation",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": null,
+      "seriesSequence": null,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Acts 2:36-42"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "64a10381ff7c6602b3a8d25f53054515e681b20a3ebb31dc16452a8c7a80c748",
+      "resources": [
+        {
+          "resourceKey": "l2-20",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 20,
+          "path": "02-l2/20-minute/BRL_Plan_of_Salvation_L2_20_Minute_Pulpit_Outline_V1.0.pdf",
+          "bytes": 6899,
+          "sha256": "6abee9ef92f4911006074b829eba1fb61a815e29f147f2b7555c8efd9b34a057",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/02-l2/20-minute/BRL_Plan_of_Salvation_L2_20_Minute_Pulpit_Outline_V1.0.pdf"
+        },
+        {
+          "resourceKey": "l2-30",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 30,
+          "path": "02-l2/30-minute/BRL_Plan_of_Salvation_L2_30_Minute_Pulpit_Outline_V1.0.pdf",
+          "bytes": 9314,
+          "sha256": "4894b58b424cad098589b0f5c1ed2863d0aabaddff98464074c097110fac2232",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/02-l2/30-minute/BRL_Plan_of_Salvation_L2_30_Minute_Pulpit_Outline_V1.0.pdf"
+        },
+        {
+          "resourceKey": "l2-40",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 40,
+          "path": "02-l2/40-minute/BRL_Plan_of_Salvation_L2_40_Minute_Advanced_Pulpit_Outline_V1.0.pdf",
+          "bytes": 13924,
+          "sha256": "472ab572805f8f802fac3509310d271c372ab38b497cc140d8b9351d7e6b7571",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/02-l2/40-minute/BRL_Plan_of_Salvation_L2_40_Minute_Advanced_Pulpit_Outline_V1.0.pdf"
+        },
+        {
+          "resourceKey": "l3-archive-pdf",
+          "role": "l3",
+          "format": "pdf",
+          "path": "01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.pdf",
+          "bytes": 244360,
+          "sha256": "0120e0f91699d21c1335d0d2ddff1327fc9b87ac21b32e0a1e9316c2bb0ed015",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.pdf"
+        },
+        {
+          "resourceKey": "l3-archive-docx",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.docx",
+          "bytes": 45686,
+          "sha256": "136c2862b9378b95f08ee5a353e6962348ffe8971d3f980505f6d9c379a9b7c3",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.docx"
+        },
+        {
+          "resourceKey": "listener-handout",
+          "role": "handout",
+          "format": "pdf",
+          "audience": "Adult",
+          "path": "04-handouts/BRL-SER-410.002_The-Plan-of-Salvation_Handout_V1.0.pdf",
+          "bytes": 2256915,
+          "sha256": "1958efb4d3dd7610111487ecf6e648f9bba8257c317de6a1d637df3c74c9c35e",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.002/04-handouts/BRL-SER-410.002_The-Plan-of-Salvation_Handout_V1.0.pdf"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.002",
+        "slug": "the-plan-of-salvation",
+        "title": "The Plan of Salvation",
+        "subtitle": "What Will You Do with Jesus?",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": null,
+        "mainText": [
+          "Acts 2:36-42"
+        ],
+        "sermonType": "Topical / Expository-Topical",
+        "proposition": "God has revealed through the gospel how sinners come to Christ: they hear His Word, believe in Jesus Christ, repent of sin, confess Christ, are baptized into Christ, and thereafter live in faithful obedience to Him.",
+        "theme": "God's revealed response to the gospel of Jesus Christ",
+        "version": "1.0",
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l2-20",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 20,
+            "path": "02-l2/20-minute/BRL_Plan_of_Salvation_L2_20_Minute_Pulpit_Outline_V1.0.pdf"
+          },
+          {
+            "resourceKey": "l2-30",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 30,
+            "path": "02-l2/30-minute/BRL_Plan_of_Salvation_L2_30_Minute_Pulpit_Outline_V1.0.pdf"
+          },
+          {
+            "resourceKey": "l2-40",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 40,
+            "path": "02-l2/40-minute/BRL_Plan_of_Salvation_L2_40_Minute_Advanced_Pulpit_Outline_V1.0.pdf"
+          },
+          {
+            "resourceKey": "l3-archive-pdf",
+            "role": "l3",
+            "format": "pdf",
+            "path": "01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.pdf"
+          },
+          {
+            "resourceKey": "l3-archive-docx",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.docx"
+          },
+          {
+            "resourceKey": "listener-handout",
+            "role": "handout",
+            "format": "pdf",
+            "audience": "Adult",
+            "path": "04-handouts/BRL-SER-410.002_The-Plan-of-Salvation_Handout_V1.0.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.003",
+      "slug": "getting-to-know-god-ec2d7cbc751f",
+      "id": "BRL-SER-410.003",
+      "title": "Getting to Know God",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Do You Know God?",
+      "seriesSequence": 2,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Jeremiah 9:23-24"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "3eb9a9b82fa2a0d1214790f7cd6e83be746a8ddeee7d7e08efa6fb1c072140ca",
+      "resources": [
+        {
+          "resourceKey": "l2-20",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 20,
+          "path": "02-l2/20-minute/BRL-410.003-20min-L2-Outline.pdf",
+          "bytes": 73198,
+          "sha256": "f8e30ad3b9239c8c8cf030c54d56146f651ed86e498226dc878b014a023bf582",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/02-l2/20-minute/BRL-410.003-20min-L2-Outline.pdf"
+        },
+        {
+          "resourceKey": "l2-30",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 30,
+          "path": "02-l2/30-minute/BRL-410.003-30min-L2-Outline.pdf",
+          "bytes": 88028,
+          "sha256": "9b084b510ee6bd457b8737f2af6d86b8f5bb059ac93f9c459228aeb2b1ae868c",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/02-l2/30-minute/BRL-410.003-30min-L2-Outline.pdf"
+        },
+        {
+          "resourceKey": "l2-40",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 40,
+          "path": "02-l2/40-minute/BRL-410.003-40min-L2-Outline.pdf",
+          "bytes": 76547,
+          "sha256": "5e6ab0027b7022e9dbefa644992340ca51dfcef25ab6101881c9fba22185e110",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/02-l2/40-minute/BRL-410.003-40min-L2-Outline.pdf"
+        },
+        {
+          "resourceKey": "l3-archive",
+          "role": "l3",
+          "format": "pdf",
+          "path": "01-l3/BRL-410.003-L3-Sermon-Archive.pdf",
+          "bytes": 277837,
+          "sha256": "01a7bf29f2cc70bb1fca1131931f7b6468f3814c91aa8b44caabd3a3152c0521",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/01-l3/BRL-410.003-L3-Sermon-Archive.pdf"
+        },
+        {
+          "resourceKey": "presentation",
+          "role": "presentation",
+          "format": "pptx",
+          "path": "03-presentation/BRL-410.003-Presentation.pptx",
+          "bytes": 1407466,
+          "sha256": "72a8f1171bb52ef7105f73003a008ef74ca982bcd9da2b2366d9dfce9313ab79",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/03-presentation/BRL-410.003-Presentation.pptx"
+        },
+        {
+          "resourceKey": "listener-handout",
+          "role": "handout",
+          "format": "pdf",
+          "path": "04-handouts/BRL-410.003-Listener-Handout.pdf",
+          "bytes": 87726,
+          "sha256": "b47dea92443e22ef0207935e31ef5a862de8fb9f762b3fd4f0c023903d76e2ed",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.003/04-handouts/BRL-410.003-Listener-Handout.pdf"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.003",
+        "slug": "getting-to-know-god",
+        "title": "Getting to Know God",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Do You Know God?",
+          "sequence": 2
+        },
+        "mainText": [
+          "Jeremiah 9:23-24"
+        ],
+        "supportingScriptures": [
+          "Exodus 25:31-40",
+          "Numbers 17:8",
+          "Jeremiah 1:11-12",
+          "Ecclesiastes 12:5",
+          "Exodus 25-26",
+          "Numbers 15:37-41",
+          "John 19:2-5",
+          "Isaiah 1:18",
+          "Exodus 12",
+          "Exodus 29:38-42",
+          "Matthew 26:26-29",
+          "Revelation 19:6-9"
+        ],
+        "sermonType": "Topical / Expository-Topical",
+        "theme": "Knowing God begins by learning what He has chosen to reveal about Himself.",
+        "proposition": "God has revealed what matters to Him so that we may truly know Him.",
+        "sermonQuestion": "Do you truly know God, or do you simply know facts about Him?",
+        "version": "1.0",
+        "outline": [
+          {
+            "point": 1,
+            "heading": "Do You Know God's Favorite Flower?",
+            "summary": "God never wastes details.",
+            "primaryReference": "Exodus 25:31-40"
+          },
+          {
+            "point": 2,
+            "heading": "Do You Know God's Favorite Colors?",
+            "summary": "God teaches through purposeful beauty.",
+            "primaryReference": "Exodus 25-26"
+          },
+          {
+            "point": 3,
+            "heading": "Do You Know God's Favorite Meal?",
+            "summary": "God continually invites His people into fellowship.",
+            "primaryReference": "Exodus 12"
+          }
+        ],
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l2-20",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 20,
+            "path": "02-l2/20-minute/BRL-410.003-20min-L2-Outline.pdf"
+          },
+          {
+            "resourceKey": "l2-30",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 30,
+            "path": "02-l2/30-minute/BRL-410.003-30min-L2-Outline.pdf"
+          },
+          {
+            "resourceKey": "l2-40",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 40,
+            "path": "02-l2/40-minute/BRL-410.003-40min-L2-Outline.pdf"
+          },
+          {
+            "resourceKey": "l3-archive",
+            "role": "l3",
+            "format": "pdf",
+            "path": "01-l3/BRL-410.003-L3-Sermon-Archive.pdf"
+          },
+          {
+            "resourceKey": "presentation",
+            "role": "presentation",
+            "format": "pptx",
+            "path": "03-presentation/BRL-410.003-Presentation.pptx"
+          },
+          {
+            "resourceKey": "listener-handout",
+            "role": "handout",
+            "format": "pdf",
+            "path": "04-handouts/BRL-410.003-Listener-Handout.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.004",
+      "slug": "compassion-3d5c74f96fe1",
+      "id": "BRL-SER-410.004",
+      "title": "Compassion",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Compassion: Love in Motion",
+      "seriesSequence": 1,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 18:33"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a9de5da88fa9ff110c356c8999b562d9fc8e0e559f327cc8ef6f88058cb3f883",
+      "resources": [
+        {
+          "resourceKey": "l3-word-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_1_Greek_Word_Study.docx",
+          "bytes": 40183,
+          "sha256": "5ac1dcf497faacd0b60d886aa3deb4f0861ffab6d48cd05d0da050b67d9cfd21",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_1_Greek_Word_Study.docx"
+        },
+        {
+          "resourceKey": "l3-direct-context",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.1_Direct_Context.docx",
+          "bytes": 40328,
+          "sha256": "756f3a605ad1a39b49e2a96b65f98275249a785e6984ffc926a7014a961cbe37",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_2.1_Direct_Context.docx"
+        },
+        {
+          "resourceKey": "l3-remote-context",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.2_Remote_Context.docx",
+          "bytes": 41761,
+          "sha256": "49a889ab162bcd0d4bd6ffec0ac884e704564be0a669c1d03ec4f09a22fd4d25",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_2.2_Remote_Context.docx"
+        },
+        {
+          "resourceKey": "l3-total-context",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.3_Total_Context.docx",
+          "bytes": 42266,
+          "sha256": "345f8a94617486e6d884c2359f0092c41e05c80a8e9e73203702bb9705eae663",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_2.3_Total_Context.docx"
+        },
+        {
+          "resourceKey": "l3-proactive-reactive",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.4_Compassion_Proactive_or_Reactive.docx",
+          "bytes": 41176,
+          "sha256": "f54e24d9872e97ed82534687e3fe07d4a9bcc6f7ee64c203499d839e129e9447",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_2.4_Compassion_Proactive_or_Reactive.docx"
+        },
+        {
+          "resourceKey": "l3-command-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.1_CEI_Command_Study.docx",
+          "bytes": 40870,
+          "sha256": "868073f40c2bbb8c1a53ff2e08535ac68e88b0dfc1b3658b3927c5a78db2b495",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_3.1_CEI_Command_Study.docx"
+        },
+        {
+          "resourceKey": "l3-example-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.2_CEI_Example_Study.docx",
+          "bytes": 41269,
+          "sha256": "770eec0685438060e79dcc04c6f44b4cebfbe041cb24a7f16db7e7bc26aa129c",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_3.2_CEI_Example_Study.docx"
+        },
+        {
+          "resourceKey": "l3-necessary-inference-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.3_CEI_Necessary_Inference_Study.docx",
+          "bytes": 41007,
+          "sha256": "1b4e1e3fd9a83e5ed80f48711725b33e602509b4e77b8f4ac51900af13b9dba9",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/01-L3_Study_Archive/BRL_Compassion_L3_Section_3.3_CEI_Necessary_Inference_Study.docx"
+        },
+        {
+          "resourceKey": "l2-20-minute",
+          "role": "l2",
+          "format": "docx",
+          "durationMinutes": 20,
+          "path": "02-L2_Pulpit_Outlines/BRL-SER-410.004_compassion_L2-pulpit_20-minute_v1.0.docx",
+          "bytes": 39220,
+          "sha256": "4c2e6048b62b74c2c9b4880610773655feeb314957e597f015c6ae4f847f6e42",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/BRL-SER-410.004_compassion_L2-pulpit_20-minute_v1.0.docx"
+        },
+        {
+          "resourceKey": "l2-page-8630",
+          "role": "l2",
+          "format": "png",
+          "path": "02-L2_Pulpit_Outlines/8630.png",
+          "bytes": 432528,
+          "sha256": "cbf29b1566136660d19256f2ed4ec37ef5c00ac6bedcde2f52327f7885b12ecc",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/8630.png"
+        },
+        {
+          "resourceKey": "l2-page-8631",
+          "role": "l2",
+          "format": "png",
+          "path": "02-L2_Pulpit_Outlines/8631.png",
+          "bytes": 492123,
+          "sha256": "f2790348feccc5cb05ba6963b7aaa80b6680f10fa2b38abb3cd9c9631b3610a8",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/8631.png"
+        },
+        {
+          "resourceKey": "l2-page-8632",
+          "role": "l2",
+          "format": "png",
+          "path": "02-L2_Pulpit_Outlines/8632.png",
+          "bytes": 522656,
+          "sha256": "dfcc2a81cda85abceeb3a452359ed2d25bcca8fa9d8adc348ab21084cfe6d0ac",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/8632.png"
+        },
+        {
+          "resourceKey": "l2-page-8633",
+          "role": "l2",
+          "format": "png",
+          "path": "02-L2_Pulpit_Outlines/8633.png",
+          "bytes": 490839,
+          "sha256": "01bd6ec92bea4002355f53403d3bada7ce96405822e758be5c139f1d1772c2c4",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/8633.png"
+        },
+        {
+          "resourceKey": "l2-page-8634",
+          "role": "l2",
+          "format": "png",
+          "path": "02-L2_Pulpit_Outlines/8634.png",
+          "bytes": 421166,
+          "sha256": "c12ae0cfeef99ef55d4a828991f2df2bf16304b0859ece240449c8bbe2662b40",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/02-L2_Pulpit_Outlines/8634.png"
+        },
+        {
+          "resourceKey": "presentation",
+          "role": "presentation",
+          "format": "pptx",
+          "path": "03-Presentation/BRL-SER-410.004_Compassion_Presentation_v1.0.pptx",
+          "bytes": 13229385,
+          "sha256": "95b305140259ca37ba05ddc7cb8ec0bdbf9c36117dcb16e233fb238a25d3e9ed",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.004/03-Presentation/BRL-SER-410.004_Compassion_Presentation_v1.0.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.004",
+        "version": "1.0",
+        "status": "published",
+        "title": "Compassion",
+        "subtitle": "Shouldest Not Thou Also?",
+        "slug": "compassion",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "author": "Derek Dodd",
+        "series": {
+          "name": "Compassion: Love in Motion",
+          "sequence": 1
+        },
+        "mainText": [
+          "Matthew 18:33"
+        ],
+        "supportingScriptures": [
+          "Matthew 18:15",
+          "Matthew 18:21-35",
+          "Luke 6:36",
+          "Luke 10:33-37",
+          "Ephesians 4:32",
+          "Colossians 3:12"
+        ],
+        "topics": [
+          "Compassion",
+          "Mercy",
+          "Forgiveness",
+          "Christian Character",
+          "Brotherly Relationships"
+        ],
+        "audience": "General",
+        "sermonType": [
+          "Topical"
+        ],
+        "proposition": "Because God has shown compassion to us, we are obligated to become compassionate people who extend mercy to others.",
+        "sermonQuestion": "Has God's mercy changed me?",
+        "seriesTheme": "Jesus sees. Jesus has compassion. Jesus acts.",
+        "outline": [
+          {
+            "point": 1,
+            "heading": "God's Compassion",
+            "summary": "Even as I had pity on thee.",
+            "primaryReference": "Matthew 18:33"
+          },
+          {
+            "point": 2,
+            "heading": "Man's Compassion",
+            "summary": "Shouldest not thou also have had compassion?",
+            "primaryReference": "Matthew 18:33"
+          },
+          {
+            "point": 3,
+            "heading": "Receiving & Giving Compassion",
+            "summary": "Even as I...",
+            "primaryReference": "Matthew 18:33"
+          }
+        ],
+        "cei": {
+          "command": true,
+          "example": true,
+          "necessaryInference": false,
+          "summary": "Command and example are established. No distinct necessary inference was established."
+        },
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l3-word-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_1_Greek_Word_Study.docx"
+          },
+          {
+            "resourceKey": "l3-direct-context",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.1_Direct_Context.docx"
+          },
+          {
+            "resourceKey": "l3-remote-context",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.2_Remote_Context.docx"
+          },
+          {
+            "resourceKey": "l3-total-context",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.3_Total_Context.docx"
+          },
+          {
+            "resourceKey": "l3-proactive-reactive",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_2.4_Compassion_Proactive_or_Reactive.docx"
+          },
+          {
+            "resourceKey": "l3-command-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.1_CEI_Command_Study.docx"
+          },
+          {
+            "resourceKey": "l3-example-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.2_CEI_Example_Study.docx"
+          },
+          {
+            "resourceKey": "l3-necessary-inference-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01-L3_Study_Archive/BRL_Compassion_L3_Section_3.3_CEI_Necessary_Inference_Study.docx"
+          },
+          {
+            "resourceKey": "l2-20-minute",
+            "role": "l2",
+            "format": "docx",
+            "durationMinutes": 20,
+            "path": "02-L2_Pulpit_Outlines/BRL-SER-410.004_compassion_L2-pulpit_20-minute_v1.0.docx"
+          },
+          {
+            "resourceKey": "l2-page-8630",
+            "role": "l2",
+            "format": "png",
+            "path": "02-L2_Pulpit_Outlines/8630.png"
+          },
+          {
+            "resourceKey": "l2-page-8631",
+            "role": "l2",
+            "format": "png",
+            "path": "02-L2_Pulpit_Outlines/8631.png"
+          },
+          {
+            "resourceKey": "l2-page-8632",
+            "role": "l2",
+            "format": "png",
+            "path": "02-L2_Pulpit_Outlines/8632.png"
+          },
+          {
+            "resourceKey": "l2-page-8633",
+            "role": "l2",
+            "format": "png",
+            "path": "02-L2_Pulpit_Outlines/8633.png"
+          },
+          {
+            "resourceKey": "l2-page-8634",
+            "role": "l2",
+            "format": "png",
+            "path": "02-L2_Pulpit_Outlines/8634.png"
+          },
+          {
+            "resourceKey": "presentation",
+            "role": "presentation",
+            "format": "pptx",
+            "path": "03-Presentation/BRL-SER-410.004_Compassion_Presentation_v1.0.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.005",
+      "slug": "when-jesus-saw-the-multitudes-944b76949ccf",
+      "id": "BRL-SER-410.005",
+      "title": "When Jesus Saw the Multitudes",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Compassion: Love in Motion",
+      "seriesSequence": 2,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 9:35â€“38"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "ac1547ec1320762790c88d94ed967c1b9d9d4d92f58842a41b800a3c3da278ac",
+      "resources": [
+        {
+          "resourceKey": "l3-word-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_01_Word_Study.docx",
+          "format": "docx",
+          "sha256": "9db52a2eba4d3d33d0136621a6b217b74cd7d5e89705516207f7eb1beafd6955",
+          "bytes": 41557,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_01_Word_Study.docx"
+        },
+        {
+          "resourceKey": "l3-direct-context",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_02.1_Direct_Context.docx",
+          "format": "docx",
+          "sha256": "41a9caf8ba04fed69c05b3907eb3f72ae4ca0de480f32dbbcd7781804a2f9f37",
+          "bytes": 43331,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_02.1_Direct_Context.docx"
+        },
+        {
+          "resourceKey": "l3-remote-context",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_02.2_Remote_Context.docx",
+          "format": "docx",
+          "sha256": "68ddec230d520fe87798b07b5cfc68ea023cac8549b903caa5e67cd030a98eb3",
+          "bytes": 43392,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_02.2_Remote_Context.docx"
+        },
+        {
+          "resourceKey": "l3-total-context",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_02.3_Total_Context.docx",
+          "format": "docx",
+          "sha256": "3d30a17ce00debc1e5575d74c163bfefaf4e4a35fa1eb353114770f8a3997ab3",
+          "bytes": 43696,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_02.3_Total_Context.docx"
+        },
+        {
+          "resourceKey": "l3-historical-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_02.4_Historical_Study.docx",
+          "format": "docx",
+          "sha256": "9d02d41339c9e36b9aae3800b56bd8e2967812dc18cca038a149769edba3af3d",
+          "bytes": 44372,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_02.4_Historical_Study.docx"
+        },
+        {
+          "resourceKey": "l3-apologetics-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_02.5_Apologetics_Study.docx",
+          "format": "docx",
+          "sha256": "5bcae6ee9f103f6323548c9c915e96680979f03fe8cd0cbf37792387f29a5464",
+          "bytes": 44694,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_02.5_Apologetics_Study.docx"
+        },
+        {
+          "resourceKey": "l3-command-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_03.1_Command_Study.docx",
+          "format": "docx",
+          "sha256": "5606fb4feb02dba3fa5407d2a5de632d099c892c0ed2254be64410b388179368",
+          "bytes": 42804,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_03.1_Command_Study.docx"
+        },
+        {
+          "resourceKey": "l3-example-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_03.2_Example_Study.docx",
+          "format": "docx",
+          "sha256": "6e5e44f384dfc63288dbe52e88a679ade7f22af5a3a4f3c64b21db4cd5648042",
+          "bytes": 43668,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_03.2_Example_Study.docx"
+        },
+        {
+          "resourceKey": "l3-necessary-inference-study",
+          "role": "l3-study",
+          "path": "01-l3/BRL-SER-410.005_L3_03.3_Necessary_Inference_Study.docx",
+          "format": "docx",
+          "sha256": "d2df72868b649f14d1fa566ffcee8cc9d524abdde05f547d42a4edf3275ae298",
+          "bytes": 44244,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/01-l3/BRL-SER-410.005_L3_03.3_Necessary_Inference_Study.docx"
+        },
+        {
+          "resourceKey": "l2-20",
+          "role": "l2-outline",
+          "path": "02-l2/20_Minute/BRL-SER-410.005_L2_20-Minute_Pulpit_Outline.docx",
+          "format": "docx",
+          "sha256": "798ce29295b6dcc3af15e667cc520c2ca5bf6f83d83d3c7d37b0112dddbffc09",
+          "bytes": 40993,
+          "durationMinutes": 20,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/20_Minute/BRL-SER-410.005_L2_20-Minute_Pulpit_Outline.docx"
+        },
+        {
+          "resourceKey": "l2-30-page-1",
+          "role": "l2-outline",
+          "path": "02-l2/30_Minute/Page_1.png",
+          "format": "png",
+          "sha256": "ac58c0d749241cff87c42006e88ebcdcf699ac1f84abb5a880cd5a8f38a50b0b",
+          "bytes": 1955917,
+          "durationMinutes": 30,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/30_Minute/Page_1.png"
+        },
+        {
+          "resourceKey": "l2-30-page-2",
+          "role": "l2-outline",
+          "path": "02-l2/30_Minute/Page_2.png",
+          "format": "png",
+          "sha256": "8796185a77a6e656cda8a9119bd2fdfc1eb793d4b1843ae9060e1b1e5510caed",
+          "bytes": 1949131,
+          "durationMinutes": 30,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/30_Minute/Page_2.png"
+        },
+        {
+          "resourceKey": "l2-30-page-3",
+          "role": "l2-outline",
+          "path": "02-l2/30_Minute/Page_3.png",
+          "format": "png",
+          "sha256": "b73812056a3884a76e439d210674f00180242f914a598ad284b0d992adae71af",
+          "bytes": 2036635,
+          "durationMinutes": 30,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/30_Minute/Page_3.png"
+        },
+        {
+          "resourceKey": "l2-40-page-1",
+          "role": "l2-outline",
+          "path": "02-l2/40_Minute/Page_1.png",
+          "format": "png",
+          "sha256": "b151bedab0b4b19c9c147f74f1e60e4b6fb0e4155b3822c72044463c68cbb398",
+          "bytes": 2088753,
+          "durationMinutes": 40,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/40_Minute/Page_1.png"
+        },
+        {
+          "resourceKey": "l2-40-page-2",
+          "role": "l2-outline",
+          "path": "02-l2/40_Minute/Page_2.png",
+          "format": "png",
+          "sha256": "797b0cfc2b90b7901cf1cb52a1c593e70152a6f9c2a66f36d28d15ed4f65fe29",
+          "bytes": 2126867,
+          "durationMinutes": 40,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/40_Minute/Page_2.png"
+        },
+        {
+          "resourceKey": "l2-40-page-3",
+          "role": "l2-outline",
+          "path": "02-l2/40_Minute/Page_3.png",
+          "format": "png",
+          "sha256": "2a98feee5f2f9a0ed8bddd38df616dfd52c262458db436682522ed90f1a452ab",
+          "bytes": 2060682,
+          "durationMinutes": 40,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/40_Minute/Page_3.png"
+        },
+        {
+          "resourceKey": "l2-40-page-4",
+          "role": "l2-outline",
+          "path": "02-l2/40_Minute/Page_4.png",
+          "format": "png",
+          "sha256": "cc273a432f75d5ab363a0d8aefde1210cf0df034a93389d6eaa0ded3bfce9917",
+          "bytes": 1944718,
+          "durationMinutes": 40,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/02-l2/40_Minute/Page_4.png"
+        },
+        {
+          "resourceKey": "presentation",
+          "role": "presentation",
+          "path": "03-presentation/BRL-SER-410.005_When_Jesus_Saw_the_Multitudes_v1.0.pptx",
+          "format": "pptx",
+          "sha256": "7edd6f174220c18f14f9c3d1d35a8921fe115eab7779ce949938491e01dc2fc4",
+          "bytes": 14806014,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/03-presentation/BRL-SER-410.005_When_Jesus_Saw_the_Multitudes_v1.0.pptx"
+        },
+        {
+          "resourceKey": "toddler-handout",
+          "role": "handout",
+          "path": "04-handouts/BRL-SER-410.005_Toddler_Listener_Handout.png",
+          "format": "png",
+          "sha256": "cb58fd90d99ea5c8b7c702ef2eac64d3e7dee4bf947a27fe11aaffeff1d5f762",
+          "bytes": 1671842,
+          "audience": "Toddler",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/04-handouts/BRL-SER-410.005_Toddler_Listener_Handout.png"
+        },
+        {
+          "resourceKey": "approved-handout-mockup-1",
+          "role": "handout-mockup",
+          "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_1.png",
+          "format": "png",
+          "sha256": "efe77f9aceb962a79890cfb474b3344aef60bb069fa0451aa20674b774ed0daf",
+          "bytes": 1963972,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_1.png"
+        },
+        {
+          "resourceKey": "approved-handout-mockup-2",
+          "role": "handout-mockup",
+          "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_2.png",
+          "format": "png",
+          "sha256": "960e85a8da4af1eda298bd533b646ba763f9e86cd29d877b26dfc3998fa6508a",
+          "bytes": 2054235,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_2.png"
+        },
+        {
+          "resourceKey": "approved-handout-mockup-3",
+          "role": "handout-mockup",
+          "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_3.png",
+          "format": "png",
+          "sha256": "6eb541328f9407f1ef2a0915af5b7ae7d84e6f981c2bd7c2602f28edc4788feb",
+          "bytes": 1988932,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_3.png"
+        },
+        {
+          "resourceKey": "approved-handout-mockup-4",
+          "role": "handout-mockup",
+          "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_4.png",
+          "format": "png",
+          "sha256": "3c77bc411775f9a9dede68a9c78c12e245f480c748affd930a0dec193560c0ce",
+          "bytes": 2071925,
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.005/04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_4.png"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.005",
+        "slug": "when-jesus-saw-the-multitudes",
+        "title": "When Jesus Saw the Multitudes",
+        "subtitle": "When Jesus Saw, He Had Compassion",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "author": "Derek Dodd",
+        "series": {
+          "name": "Compassion: Love in Motion",
+          "sequence": 2
+        },
+        "mainText": [
+          "Matthew 9:35â€“38"
+        ],
+        "primaryCompassionText": "Matthew 9:36",
+        "bibleTranslation": "KJV",
+        "sermonType": [
+          "Topical",
+          "Expository"
+        ],
+        "audience": "General",
+        "version": "1.0",
+        "seriesTheme": "Jesus sees. Jesus has compassion. Jesus acts.",
+        "proposition": "Jesus does not merely show us what compassion looks like. His compassion teaches His disciples how to see people, how to respond to people, and how to draw others into compassionate service.",
+        "sermonQuestion": "When I look at people, do I see what Jesus sees?",
+        "outline": [
+          {
+            "number": 1,
+            "heading": "Compassion Goes",
+            "statement": "Compassion moves toward people.",
+            "scripture": "Matthew 9:35"
+          },
+          {
+            "number": 2,
+            "heading": "Compassion Sees",
+            "statement": "Compassion sees people in their true condition.",
+            "scripture": "Matthew 9:36"
+          },
+          {
+            "number": 3,
+            "heading": "Compassion Compels",
+            "statement": "Compassion compels action.",
+            "scripture": "Matthew 9:36"
+          },
+          {
+            "number": 4,
+            "heading": "Compassion Compels Others",
+            "statement": "Compassion compels others to action.",
+            "scripture": "Matthew 9:37â€“38"
+          }
+        ],
+        "conclusion": {
+          "rhythmicSummary": [
+            "Compassion goes.",
+            "Compassion sees.",
+            "Compassion compels.",
+            "Compassion compels others."
+          ],
+          "closingStatement": "Jesus is compassion and calls us to become compassion."
+        },
+        "cei": {
+          "command": "Matthew 9:38 explicitly commands Jesusâ€™ disciples to pray to the Lord of the harvest for laborers. The broader New Testament also commands compassionate character and responsive love.",
+          "example": "Jesus provides the approved example of moving toward people, seeing their true condition, being moved with compassion, responding appropriately, and drawing disciples into service.",
+          "necessaryInference": "The harvest must matter to Christâ€™s disciples; sincere prayer requires genuine concern; divine ownership of the harvest does not eliminate human responsibility; compassionate response varies according to actual need; and genuine compassion cannot consistently coexist with deliberate indifference where opportunity, ability, and responsibility exist."
+        },
+        "gospelInvitationStandard": [
+          {
+            "step": 1,
+            "action": "Hear the Word",
+            "scripture": "Romans 10:17"
+          },
+          {
+            "step": 2,
+            "action": "Believe the Word",
+            "scripture": "John 8:24"
+          },
+          {
+            "step": 3,
+            "action": "Confess the Christ",
+            "scripture": "Matthew 10:32"
+          },
+          {
+            "step": 4,
+            "action": "Repent of your sins",
+            "scripture": "Luke 13:3"
+          },
+          {
+            "step": 5,
+            "action": "Be baptized into His death",
+            "scripture": "Romans 6:3â€“4"
+          },
+          {
+            "step": 6,
+            "action": "Walk in obedience",
+            "scripture": "Revelation 2:10"
+          }
+        ],
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l3-word-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_01_Word_Study.docx",
+            "format": "docx",
+            "sha256": "9db52a2eba4d3d33d0136621a6b217b74cd7d5e89705516207f7eb1beafd6955",
+            "bytes": 41557
+          },
+          {
+            "resourceKey": "l3-direct-context",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_02.1_Direct_Context.docx",
+            "format": "docx",
+            "sha256": "41a9caf8ba04fed69c05b3907eb3f72ae4ca0de480f32dbbcd7781804a2f9f37",
+            "bytes": 43331
+          },
+          {
+            "resourceKey": "l3-remote-context",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_02.2_Remote_Context.docx",
+            "format": "docx",
+            "sha256": "68ddec230d520fe87798b07b5cfc68ea023cac8549b903caa5e67cd030a98eb3",
+            "bytes": 43392
+          },
+          {
+            "resourceKey": "l3-total-context",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_02.3_Total_Context.docx",
+            "format": "docx",
+            "sha256": "3d30a17ce00debc1e5575d74c163bfefaf4e4a35fa1eb353114770f8a3997ab3",
+            "bytes": 43696
+          },
+          {
+            "resourceKey": "l3-historical-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_02.4_Historical_Study.docx",
+            "format": "docx",
+            "sha256": "9d02d41339c9e36b9aae3800b56bd8e2967812dc18cca038a149769edba3af3d",
+            "bytes": 44372
+          },
+          {
+            "resourceKey": "l3-apologetics-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_02.5_Apologetics_Study.docx",
+            "format": "docx",
+            "sha256": "5bcae6ee9f103f6323548c9c915e96680979f03fe8cd0cbf37792387f29a5464",
+            "bytes": 44694
+          },
+          {
+            "resourceKey": "l3-command-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_03.1_Command_Study.docx",
+            "format": "docx",
+            "sha256": "5606fb4feb02dba3fa5407d2a5de632d099c892c0ed2254be64410b388179368",
+            "bytes": 42804
+          },
+          {
+            "resourceKey": "l3-example-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_03.2_Example_Study.docx",
+            "format": "docx",
+            "sha256": "6e5e44f384dfc63288dbe52e88a679ade7f22af5a3a4f3c64b21db4cd5648042",
+            "bytes": 43668
+          },
+          {
+            "resourceKey": "l3-necessary-inference-study",
+            "role": "l3-study",
+            "path": "01-l3/BRL-SER-410.005_L3_03.3_Necessary_Inference_Study.docx",
+            "format": "docx",
+            "sha256": "d2df72868b649f14d1fa566ffcee8cc9d524abdde05f547d42a4edf3275ae298",
+            "bytes": 44244
+          },
+          {
+            "resourceKey": "l2-20",
+            "role": "l2-outline",
+            "path": "02-l2/20_Minute/BRL-SER-410.005_L2_20-Minute_Pulpit_Outline.docx",
+            "format": "docx",
+            "sha256": "798ce29295b6dcc3af15e667cc520c2ca5bf6f83d83d3c7d37b0112dddbffc09",
+            "bytes": 40993,
+            "durationMinutes": 20
+          },
+          {
+            "resourceKey": "l2-30-page-1",
+            "role": "l2-outline",
+            "path": "02-l2/30_Minute/Page_1.png",
+            "format": "png",
+            "sha256": "ac58c0d749241cff87c42006e88ebcdcf699ac1f84abb5a880cd5a8f38a50b0b",
+            "bytes": 1955917,
+            "durationMinutes": 30
+          },
+          {
+            "resourceKey": "l2-30-page-2",
+            "role": "l2-outline",
+            "path": "02-l2/30_Minute/Page_2.png",
+            "format": "png",
+            "sha256": "8796185a77a6e656cda8a9119bd2fdfc1eb793d4b1843ae9060e1b1e5510caed",
+            "bytes": 1949131,
+            "durationMinutes": 30
+          },
+          {
+            "resourceKey": "l2-30-page-3",
+            "role": "l2-outline",
+            "path": "02-l2/30_Minute/Page_3.png",
+            "format": "png",
+            "sha256": "b73812056a3884a76e439d210674f00180242f914a598ad284b0d992adae71af",
+            "bytes": 2036635,
+            "durationMinutes": 30
+          },
+          {
+            "resourceKey": "l2-40-page-1",
+            "role": "l2-outline",
+            "path": "02-l2/40_Minute/Page_1.png",
+            "format": "png",
+            "sha256": "b151bedab0b4b19c9c147f74f1e60e4b6fb0e4155b3822c72044463c68cbb398",
+            "bytes": 2088753,
+            "durationMinutes": 40
+          },
+          {
+            "resourceKey": "l2-40-page-2",
+            "role": "l2-outline",
+            "path": "02-l2/40_Minute/Page_2.png",
+            "format": "png",
+            "sha256": "797b0cfc2b90b7901cf1cb52a1c593e70152a6f9c2a66f36d28d15ed4f65fe29",
+            "bytes": 2126867,
+            "durationMinutes": 40
+          },
+          {
+            "resourceKey": "l2-40-page-3",
+            "role": "l2-outline",
+            "path": "02-l2/40_Minute/Page_3.png",
+            "format": "png",
+            "sha256": "2a98feee5f2f9a0ed8bddd38df616dfd52c262458db436682522ed90f1a452ab",
+            "bytes": 2060682,
+            "durationMinutes": 40
+          },
+          {
+            "resourceKey": "l2-40-page-4",
+            "role": "l2-outline",
+            "path": "02-l2/40_Minute/Page_4.png",
+            "format": "png",
+            "sha256": "cc273a432f75d5ab363a0d8aefde1210cf0df034a93389d6eaa0ded3bfce9917",
+            "bytes": 1944718,
+            "durationMinutes": 40
+          },
+          {
+            "resourceKey": "presentation",
+            "role": "presentation",
+            "path": "03-presentation/BRL-SER-410.005_When_Jesus_Saw_the_Multitudes_v1.0.pptx",
+            "format": "pptx",
+            "sha256": "7edd6f174220c18f14f9c3d1d35a8921fe115eab7779ce949938491e01dc2fc4",
+            "bytes": 14806014
+          },
+          {
+            "resourceKey": "toddler-handout",
+            "role": "handout",
+            "path": "04-handouts/BRL-SER-410.005_Toddler_Listener_Handout.png",
+            "format": "png",
+            "sha256": "cb58fd90d99ea5c8b7c702ef2eac64d3e7dee4bf947a27fe11aaffeff1d5f762",
+            "bytes": 1671842,
+            "audience": "Toddler"
+          },
+          {
+            "resourceKey": "approved-handout-mockup-1",
+            "role": "handout-mockup",
+            "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_1.png",
+            "format": "png",
+            "sha256": "efe77f9aceb962a79890cfb474b3344aef60bb069fa0451aa20674b774ed0daf",
+            "bytes": 1963972
+          },
+          {
+            "resourceKey": "approved-handout-mockup-2",
+            "role": "handout-mockup",
+            "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_2.png",
+            "format": "png",
+            "sha256": "960e85a8da4af1eda298bd533b646ba763f9e86cd29d877b26dfc3998fa6508a",
+            "bytes": 2054235
+          },
+          {
+            "resourceKey": "approved-handout-mockup-3",
+            "role": "handout-mockup",
+            "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_3.png",
+            "format": "png",
+            "sha256": "6eb541328f9407f1ef2a0915af5b7ae7d84e6f981c2bd7c2602f28edc4788feb",
+            "bytes": 1988932
+          },
+          {
+            "resourceKey": "approved-handout-mockup-4",
+            "role": "handout-mockup",
+            "path": "04-handouts/Approved_Mockup_Assets/Approved_Listener_Handout_Mockup_4.png",
+            "format": "png",
+            "sha256": "3c77bc411775f9a9dede68a9c78c12e245f480c748affd930a0dec193560c0ce",
+            "bytes": 2071925
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-410/BRL-SER-410.006",
+      "slug": "brl-ser-410-006-95ca503e9e82",
+      "id": "BRL-SER-410.006",
+      "title": "Compassion in Motion",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Compassion: Love in Motion",
+      "seriesSequence": 3,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 14:13-21"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "cf88f2abc3e8bbe41f80ecf3e0bfb4b9f72d69675f1c6dd4dfd422b8dde7d4c7",
+      "resources": [
+        {
+          "resourceKey": "l3-word-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_1_Word_Study.docx",
+          "bytes": 42078,
+          "sha256": "284006e79a6805f9a5294f031b675cec0712bf0d9713f9c6c1bc702e453d0575",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_1_Word_Study.docx"
+        },
+        {
+          "resourceKey": "l3-direct-context",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.1_Direct_Context.docx",
+          "bytes": 43543,
+          "sha256": "11dc31aa51a15dc55d9488b3c76c6534b51e390f7555f4238626704db783ec66",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.1_Direct_Context.docx"
+        },
+        {
+          "resourceKey": "l3-total-context",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.3_Total_Context.docx",
+          "bytes": 44831,
+          "sha256": "98d10c6f4dd23dddd11c693053111f5d1a0a8d0dbb65081eb8d35c6d1832de93",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.3_Total_Context.docx"
+        },
+        {
+          "resourceKey": "l3-command-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.1_Command_Study.docx",
+          "bytes": 42422,
+          "sha256": "27e9247b5e70191c6d5d1285cda1feadc10a194d00fa8b911b338db57fea174c",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.1_Command_Study.docx"
+        },
+        {
+          "resourceKey": "l3-example-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.2_Example_Study.docx",
+          "bytes": 43670,
+          "sha256": "700063877471ea83c87f9e4e36bacc75ba0599ead287da3113733c3bbeef668a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.2_Example_Study.docx"
+        },
+        {
+          "resourceKey": "l3-necessary-inference-study",
+          "role": "l3",
+          "format": "docx",
+          "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.3_Necessary_Inference_Study.docx",
+          "bytes": 43729,
+          "sha256": "0765fce744a55edcc77c220d46bcf2a8b6a760595e2c49b7a00ff93cda3b6464",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.3_Necessary_Inference_Study.docx"
+        },
+        {
+          "resourceKey": "presentation",
+          "role": "presentation",
+          "format": "pptx",
+          "path": "03_PowerPoint/BRL_SER_410_006_Compassion_in_Motion_Approved_Slides.pptx",
+          "bytes": 15327628,
+          "sha256": "86e57c0d968f19025582e5cbdaffacd46fc5091a90c0db9a3812803ccc8caae0",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/03_PowerPoint/BRL_SER_410_006_Compassion_in_Motion_Approved_Slides.pptx"
+        },
+        {
+          "resourceKey": "handout-adult",
+          "role": "handout",
+          "format": "png",
+          "audience": "Adult",
+          "path": "04_Listener_Handouts/Adult_Listener_Handout.png",
+          "bytes": 2102160,
+          "sha256": "b84aae1234fc8b915ddbe826df1095eda034dfec9f442af94d873e1fa5966c38",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/04_Listener_Handouts/Adult_Listener_Handout.png"
+        },
+        {
+          "resourceKey": "handout-elementary",
+          "role": "handout",
+          "format": "png",
+          "audience": "Elementary",
+          "path": "04_Listener_Handouts/Elementary_Listener_Handout.png",
+          "bytes": 2332847,
+          "sha256": "6904e083e4ea47a9ab1c83f805bedb8d35185e9f6c1b565ad8c328dd5d118a38",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/04_Listener_Handouts/Elementary_Listener_Handout.png"
+        },
+        {
+          "resourceKey": "handout-high-school",
+          "role": "handout",
+          "format": "png",
+          "audience": "High School",
+          "path": "04_Listener_Handouts/High_School_Listener_Handout.png",
+          "bytes": 2061282,
+          "sha256": "d1cbfde8a886c085b18caa2f29c3aa9ceb861179bab2cebc1c4a97b26205723a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/04_Listener_Handouts/High_School_Listener_Handout.png"
+        },
+        {
+          "resourceKey": "handout-middle-school",
+          "role": "handout",
+          "format": "png",
+          "audience": "Middle School",
+          "path": "04_Listener_Handouts/Middle_School_Listener_Handout.png",
+          "bytes": 2271838,
+          "sha256": "ddbd2dc74271b149c892578a5a21d21622706d7569576f954d7f0539fcd42a98",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/04_Listener_Handouts/Middle_School_Listener_Handout.png"
+        },
+        {
+          "resourceKey": "handout-toddler",
+          "role": "handout",
+          "format": "png",
+          "audience": "Toddler",
+          "path": "04_Listener_Handouts/Toddler_Coloring_Page.png",
+          "bytes": 1759553,
+          "sha256": "666e9734ade7da016b28f584f540ea184c7fd25985b0a104b01f31c0738b001a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-410.006/04_Listener_Handouts/Toddler_Coloring_Page.png"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-410.006",
+        "version": "1.0",
+        "status": "published",
+        "title": "Compassion in Motion",
+        "subtitle": "Compassion Provides",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "author": "Derek Dodd",
+        "series": {
+          "name": "Compassion: Love in Motion",
+          "sequence": 3
+        },
+        "mainText": [
+          "Matthew 14:13-21"
+        ],
+        "primaryCompassionText": "Matthew 14:14",
+        "translation": "KJV",
+        "sermonType": [
+          "Topical",
+          "Expository"
+        ],
+        "audience": "General Congregation",
+        "topics": [
+          "Compassion",
+          "Mercy",
+          "Christian Service",
+          "Benevolence",
+          "Stewardship",
+          "Discipleship",
+          "Providence",
+          "Helping Others"
+        ],
+        "keywords": [
+          "compassion",
+          "Jesus",
+          "feeding the five thousand",
+          "loaves and fishes",
+          "interruption",
+          "responsibility",
+          "stewardship",
+          "provision",
+          "opportunity",
+          "service",
+          "need",
+          "disciples",
+          "Matthew 14"
+        ],
+        "supportingScriptures": [
+          "Mark 6:30-44",
+          "Mark 8:1-9",
+          "Matthew 15:29-39",
+          "Luke 9:10-17",
+          "John 6:1-14",
+          "Luke 6:36",
+          "Luke 10:33-37",
+          "Colossians 3:12",
+          "1 Peter 3:8",
+          "1 John 3:17-18",
+          "Galatians 6:10",
+          "2 Corinthians 8:12",
+          "Proverbs 3:27"
+        ],
+        "greekWordStudy": {
+          "word": "σπλαγχνίζομαι",
+          "transliteration": "splagchnizomai",
+          "strongs": "G4697",
+          "formInPrimaryText": "ἐσπλαγχνίσθη",
+          "reference": "Matthew 14:14"
+        },
+        "proposition": "Biblical compassion does not stop at recognizing need. It moves toward appropriate involvement for another person's good, while recognizing that the disciple is not the ultimate source—Christ is.",
+        "sermonQuestion": "When the opportunity is there, will I be willing to participate in compassion?",
+        "seriesTheme": "Jesus sees. Jesus has compassion. Jesus acts.",
+        "seriesProgression": [
+          {
+            "sermon": 1,
+            "emphasis": "We receive compassion."
+          },
+          {
+            "sermon": 2,
+            "emphasis": "We learn compassion by watching Jesus."
+          },
+          {
+            "sermon": 3,
+            "emphasis": "We participate in compassion and become compassionate people."
+          }
+        ],
+        "outline": [
+          {
+            "point": 1,
+            "heading": "Compassion Accepts the Interruption",
+            "summary": "Compassion is willing to allow another person's legitimate need to interrupt our plans.",
+            "primaryReference": "Matthew 14:13-14"
+          },
+          {
+            "point": 2,
+            "heading": "Compassion Accepts Responsibility",
+            "summary": "Compassion does not merely recognize a need or distance itself from it; it accepts appropriate responsibility and becomes involved.",
+            "primaryReference": "Matthew 14:15-16"
+          },
+          {
+            "point": 3,
+            "heading": "Compassion Uses What's Available",
+            "summary": "Human insufficiency is not an excuse for indifference. Compassion faithfully offers what God has already placed within our stewardship.",
+            "primaryReference": "Matthew 14:17-19"
+          },
+          {
+            "point": 4,
+            "heading": "Jesus Provides",
+            "summary": "God has already provided the means for the opportunities placed before us. We must honestly recognize that what we possess belongs to God and willingly steward it for His purposes.",
+            "primaryReference": "Matthew 14:18-21"
+          }
+        ],
+        "sermonRefrain": "Jesus sees. Jesus has compassion. Jesus acts.",
+        "bigIdea": "When we give what we have to Jesus, He can do more than we could ever imagine.",
+        "conclusion": {
+          "heading": "Compassion Provides",
+          "summary": "The same Jesus who fed the multitude still provides today. He sees the need, provides the means, and uses willing people.",
+          "seriesObservation": "In these Gospel accounts, Jesus and compassion can be spoken of almost interchangeably without changing the movement of the story: Jesus sees, Jesus has compassion, and Jesus acts. We cannot become Jesus, but we can become compassionate.",
+          "challenge": "The opportunity is still there. Will you be willing?"
+        },
+        "cei": {
+          "command": true,
+          "example": true,
+          "necessaryInference": false,
+          "summary": "Scripture commands compassionate character and action and provides approved examples to follow. The study did not establish a separate necessary inference beyond what is already explicitly established by command and example."
+        },
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l3-word-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_1_Word_Study.docx",
+            "bytes": 42078,
+            "sha256": "284006e79a6805f9a5294f031b675cec0712bf0d9713f9c6c1bc702e453d0575"
+          },
+          {
+            "resourceKey": "l3-direct-context",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.1_Direct_Context.docx",
+            "bytes": 43543,
+            "sha256": "11dc31aa51a15dc55d9488b3c76c6534b51e390f7555f4238626704db783ec66"
+          },
+          {
+            "resourceKey": "l3-total-context",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_2.3_Total_Context.docx",
+            "bytes": 44831,
+            "sha256": "98d10c6f4dd23dddd11c693053111f5d1a0a8d0dbb65081eb8d35c6d1832de93"
+          },
+          {
+            "resourceKey": "l3-command-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.1_Command_Study.docx",
+            "bytes": 42422,
+            "sha256": "27e9247b5e70191c6d5d1285cda1feadc10a194d00fa8b911b338db57fea174c"
+          },
+          {
+            "resourceKey": "l3-example-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.2_Example_Study.docx",
+            "bytes": 43670,
+            "sha256": "700063877471ea83c87f9e4e36bacc75ba0599ead287da3113733c3bbeef668a"
+          },
+          {
+            "resourceKey": "l3-necessary-inference-study",
+            "role": "l3",
+            "format": "docx",
+            "path": "01_L3_Study/BRL_Compassion_Series_Sermon_3_L3_Section_3.3_Necessary_Inference_Study.docx",
+            "bytes": 43729,
+            "sha256": "0765fce744a55edcc77c220d46bcf2a8b6a760595e2c49b7a00ff93cda3b6464"
+          },
+          {
+            "resourceKey": "presentation",
+            "role": "presentation",
+            "format": "pptx",
+            "path": "03_PowerPoint/BRL_SER_410_006_Compassion_in_Motion_Approved_Slides.pptx",
+            "bytes": 15327628,
+            "sha256": "86e57c0d968f19025582e5cbdaffacd46fc5091a90c0db9a3812803ccc8caae0"
+          },
+          {
+            "resourceKey": "handout-adult",
+            "role": "handout",
+            "format": "png",
+            "audience": "Adult",
+            "path": "04_Listener_Handouts/Adult_Listener_Handout.png",
+            "bytes": 2102160,
+            "sha256": "b84aae1234fc8b915ddbe826df1095eda034dfec9f442af94d873e1fa5966c38"
+          },
+          {
+            "resourceKey": "handout-elementary",
+            "role": "handout",
+            "format": "png",
+            "audience": "Elementary",
+            "path": "04_Listener_Handouts/Elementary_Listener_Handout.png",
+            "bytes": 2332847,
+            "sha256": "6904e083e4ea47a9ab1c83f805bedb8d35185e9f6c1b565ad8c328dd5d118a38"
+          },
+          {
+            "resourceKey": "handout-high-school",
+            "role": "handout",
+            "format": "png",
+            "audience": "High School",
+            "path": "04_Listener_Handouts/High_School_Listener_Handout.png",
+            "bytes": 2061282,
+            "sha256": "d1cbfde8a886c085b18caa2f29c3aa9ceb861179bab2cebc1c4a97b26205723a"
+          },
+          {
+            "resourceKey": "handout-middle-school",
+            "role": "handout",
+            "format": "png",
+            "audience": "Middle School",
+            "path": "04_Listener_Handouts/Middle_School_Listener_Handout.png",
+            "bytes": 2271838,
+            "sha256": "ddbd2dc74271b149c892578a5a21d21622706d7569576f954d7f0539fcd42a98"
+          },
+          {
+            "resourceKey": "handout-toddler",
+            "role": "handout",
+            "format": "png",
+            "audience": "Toddler",
+            "path": "04_Listener_Handouts/Toddler_Coloring_Page.png",
+            "bytes": 1759553,
+            "sha256": "666e9734ade7da016b28f584f540ea184c7fd25985b0a104b01f31c0738b001a"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.001",
+      "slug": "proper-baptism-cd7b262023bd",
+      "id": "BRL-SER-411.001",
+      "title": "Proper Baptism",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 1,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Acts 8:30-39"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "626798e24f881873af09bb2089460f19c400c8c13b49534bf0e8550106dae75f",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/Proper-Baptism.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 15849,
+          "sha256": "57d18ded01e95faa5e103e572667b01f9ea7f7173f51a57871a738f1967cdf3a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.001/01-l3/Proper-Baptism.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.001",
+        "slug": "proper-baptism",
+        "title": "Proper Baptism",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 1
+        },
+        "mainText": [
+          "Acts 8:30-39"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "The proper mode, design, and subjects of biblical baptism.",
+        "proposition": "Scripture establishes the proper mode, design, and subjects of baptism.",
+        "sermonQuestion": "What constitutes proper scriptural baptism?",
+        "outline": [
+          {
+            "heading": "Elements of Scriptural Baptism"
+          },
+          {
+            "heading": "Scriptural Design of Baptism"
+          },
+          {
+            "heading": "Scriptural Subject (who do we baptize?)"
+          }
+        ],
+        "topics": [
+          "Baptism",
+          "Immersion",
+          "Sprinkling",
+          "Pouring",
+          "Remission of sins",
+          "Salvation",
+          "Baptism into Christ",
+          "Subjects of baptism",
+          "Infant baptism",
+          "Household baptism"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "Proper Baptism.docx",
+          "preservedFilename": "Proper-Baptism.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/Proper-Baptism.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.002",
+      "slug": "first-corinthians-chapter-one-cff5b6f86b5b",
+      "id": "BRL-SER-411.002",
+      "title": "First Corinthians — Chapter One",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 2,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "1 Corinthians 1"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "495d680c8a37fa2dbdecdc3e334728dd0c20a494eb2dbea8fecdc870f586042c",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/1 Cor_1.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 30131,
+          "sha256": "3018ad296379aca3c4bca7c8a54c1e5fbc8e5d46aec35e60444b86815f167129",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.002/01-l3/1%20Cor_1.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.002",
+        "slug": "first-corinthians-chapter-one",
+        "title": "First Corinthians — Chapter One",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 2
+        },
+        "mainText": [
+          "1 Corinthians 1"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "",
+        "proposition": "",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "Introduction"
+          },
+          {
+            "heading": "Paul's Introduction to the Epistle"
+          },
+          {
+            "heading": "Partisan Divisions"
+          },
+          {
+            "heading": "Power of God's Wisdom"
+          }
+        ],
+        "topics": [
+          "First Corinthians",
+          "Corinth",
+          "Paul's apostleship",
+          "Church unity",
+          "Partisan division",
+          "Spiritual gifts",
+          "Sanctification",
+          "The cross",
+          "Wisdom of God",
+          "Preaching"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "1 Cor_1.docx",
+          "preservedFilename": "1 Cor_1.docx",
+          "contentPreservation": "Original legacy sermon preserved unchanged.",
+          "importDate": "2026-09-10"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/1 Cor_1.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.003",
+      "slug": "are-you-watching-and-seeking-jesus-1ddf63545a59",
+      "id": "BRL-SER-411.003",
+      "title": "Are You Watching and Seeking Jesus?",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 3,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Matthew 27:55-56"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "e056108069e2dd19c0b10f0ebad1e08b3efcfd4b62aa756d14757a928bd80ef0",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/ARE YOU WATCHING AND SEEKING JESUS.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 18865,
+          "sha256": "cc504c3942a326045f80694ac8d7250c13de7b7e8c8902dc92624c9a8ddba208",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.003/01-l3/ARE%20YOU%20WATCHING%20AND%20SEEKING%20JESUS.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.003",
+        "slug": "are-you-watching-and-seeking-jesus",
+        "title": "Are You Watching and Seeking Jesus?",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 3
+        },
+        "mainText": [
+          "Matthew 27:55-56"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "Show the need for drawing close to Jesus.",
+        "proposition": "Show the need for drawing close to Jesus.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "I"
+          },
+          {
+            "heading": "II"
+          },
+          {
+            "heading": "III"
+          },
+          {
+            "heading": "IV"
+          },
+          {
+            "heading": "V"
+          },
+          {
+            "heading": "VI"
+          }
+        ],
+        "topics": [
+          "Mary Magdalene",
+          "Seeking Jesus",
+          "Cross",
+          "Forgiveness",
+          "Discipleship",
+          "Burial",
+          "Resurrection",
+          "Faith",
+          "Salvation"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "ARE YOU WATCHING AND SEEKING JESUS_2.docx",
+          "preservedFilename": "ARE YOU WATCHING AND SEEKING JESUS.docx",
+          "contentPreservation": "Original legacy sermon content preserved unchanged.",
+          "importDate": "2026-09-10"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/ARE YOU WATCHING AND SEEKING JESUS.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.004",
+      "slug": "a-banquet-with-jesus-82747f99f657",
+      "id": "BRL-SER-411.004",
+      "title": "A Banquet with Jesus",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 4,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Luke 14:15-24"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a68f92702af97be09b0b72cf80a0b2ca9b4d2d13ef7a8395325730f297145416",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/A BANQUET WITH JESUS.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 14921,
+          "sha256": "bf5b75c4feb99f7dca39c9e9f2fd0b87c4b751a44bbcd8e76f4273a6745ccb72",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.004/01-l3/A%20BANQUET%20WITH%20JESUS.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.004",
+        "slug": "a-banquet-with-jesus",
+        "title": "A Banquet with Jesus",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 4
+        },
+        "mainText": [
+          "Luke 14:15-24"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "",
+        "proposition": "",
+        "sermonQuestion": "",
+        "outline": [],
+        "topics": [
+          "Jesus Christ",
+          "Great Banquet",
+          "Kingdom of God",
+          "Invitation",
+          "Excuses",
+          "Preparedness",
+          "Discipleship",
+          "Judgment",
+          "Rabbinic background"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "A BANQUET WITH JESUS.docx",
+          "preservedFilename": "A BANQUET WITH JESUS.docx",
+          "contentPreservation": "Original legacy sermon/source document preserved unchanged.",
+          "importDate": "2026-09-10"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/A BANQUET WITH JESUS.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.005",
+      "slug": "a-better-ministry-of-christ-ec04bb97ce60",
+      "id": "BRL-SER-411.005",
+      "title": "A Better Ministry of Christ",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 5,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Hebrews 9:11-14"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a167bdb859475c292c76f769fc0a9c58812edfd3a57dd062ff09401d19126f2b",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/A BETTER MINISTRY OF CHRIST.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 28839,
+          "sha256": "f986fcf8eeb46f92fcfd97880ce7953749b1d7bbf96c92535d3233be504f4994",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.005/01-l3/A%20BETTER%20MINISTRY%20OF%20CHRIST.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.005",
+        "slug": "a-better-ministry-of-christ",
+        "title": "A Better Ministry of Christ",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 5
+        },
+        "mainText": [
+          "Hebrews 9:11-14"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "",
+        "proposition": "",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "A Better Priest"
+          },
+          {
+            "heading": "A Better Sanctuary"
+          },
+          {
+            "heading": "A Better Sacrifice"
+          },
+          {
+            "heading": "A Better Method"
+          },
+          {
+            "heading": "A Better Blessing"
+          },
+          {
+            "heading": "A Better Guarantee"
+          },
+          {
+            "heading": "A Better Result"
+          }
+        ],
+        "topics": [
+          "Hebrews",
+          "Jesus Christ",
+          "High Priest",
+          "Sanctuary",
+          "Blood of Christ",
+          "Sacrifice",
+          "Eternal redemption",
+          "Eternal Spirit",
+          "Conscience",
+          "Dead works",
+          "Service to God"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "A BETTER MINISTRY OF CHRIST.docx",
+          "preservedFilename": "A BETTER MINISTRY OF CHRIST.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/A BETTER MINISTRY OF CHRIST.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.006",
+      "slug": "beneath-the-cross-e1fbad6f6409",
+      "id": "BRL-SER-411.006",
+      "title": "Beneath the Cross",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 6,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Mark 15:39"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "f1e318ea7172162cd23571927a52aa7d953db9b8afd6f3b73cd783624ba4c7c9",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/Beneath the cross.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 23750,
+          "sha256": "2106bd8b6e03c58329e04c3945fcb58e0917b246aa97e1dbc8a9da174f1dd975",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.006/01-l3/Beneath%20the%20cross.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.006",
+        "slug": "beneath-the-cross",
+        "title": "Beneath the Cross",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 6
+        },
+        "mainText": [
+          "Mark 15:39"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "We cannot understand the depth of sin until we stand beneath the cross of Jesus.",
+        "proposition": "We cannot understand the depth of sin until we stand beneath the cross of Jesus.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "Beneath the Cross of Christ We See the Horribleness of Sin"
+          },
+          {
+            "heading": "Beneath the Cross of Christ We See the Helplessness of the Soul"
+          },
+          {
+            "heading": "Beneath the Cross of Christ We See the Humanity of the Savior"
+          }
+        ],
+        "topics": [
+          "Cross of Christ",
+          "Sin",
+          "Atonement",
+          "Substitution",
+          "Salvation",
+          "Human helplessness",
+          "Humanity of Christ",
+          "Suffering of Christ"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "Beneath the cross.docx",
+          "preservedFilename": "Beneath the cross.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/Beneath the cross.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.007",
+      "slug": "christ-in-the-home-07821ee33753",
+      "id": "BRL-SER-411.007",
+      "title": "Christ in the Home",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 7,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Mark 2:1"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "1eba029de5ed8fa6d2674a5457de66037cd5582fb2ee6c7d8949623ed60384ad",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/CHRIST-IN-THE-HOME.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 34419,
+          "sha256": "22b87ff0ed733f8b49ad67b125df2ec44e3c3db2224554698e197702618e649a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.007/01-l3/CHRIST-IN-THE-HOME.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.007",
+        "slug": "christ-in-the-home",
+        "title": "Christ in the Home",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 7
+        },
+        "mainText": [
+          "Mark 2:1"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "The presence and influence of Christ in the home.",
+        "proposition": "The presence of Christ in the home produces fellowship, faith, forgiveness, proper attitudes, and spiritual fullness.",
+        "sermonQuestion": "What happens when Christ is truly present in the home?",
+        "outline": [
+          {
+            "heading": "The Exhibition of Fellowship"
+          },
+          {
+            "heading": "The Exercise of Faith"
+          },
+          {
+            "heading": "The Experience of Forgiveness"
+          },
+          {
+            "heading": "The Exposure of Fault Finding"
+          },
+          {
+            "heading": "The Enjoyment of Fullness from Him"
+          }
+        ],
+        "topics": [
+          "Home",
+          "Christ in the home",
+          "Fellowship",
+          "Faith",
+          "Family faith",
+          "Forgiveness",
+          "Repentance",
+          "Heart",
+          "Thoughts",
+          "Discipleship"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "CHRIST IN THE HOME.docx",
+          "preservedFilename": "CHRIST-IN-THE-HOME.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/CHRIST-IN-THE-HOME.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.008",
+      "slug": "christ-in-the-pharisees-house-cc55c950f41b",
+      "id": "BRL-SER-411.008",
+      "title": "Christ in the Pharisee's House",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 8,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Luke 7:36-50"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "8d443fbcfbd8dabc8b122010ded2406544d47e93bcc4c883031cbafcfeef0614",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/CHRIST IN THE PHARISEES HOUSE.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 30521,
+          "sha256": "263478f7e56ca000dbcf2465532b0c528dfed9a3b871f21fc000898db8f2f4ab",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.008/01-l3/CHRIST%20IN%20THE%20PHARISEES%20HOUSE.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.008",
+        "slug": "christ-in-the-pharisees-house",
+        "title": "Christ in the Pharisee's House",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 8
+        },
+        "mainText": [
+          "Luke 7:36-50"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "Jesus receives the devotion of a forgiven woman and exposes Simon the Pharisee's failure to understand sin, forgiveness, faith, and love.",
+        "proposition": "Jesus receives the devotion of a forgiven woman and exposes Simon the Pharisee's failure to understand sin, forgiveness, faith, and love.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "Christ Defamed"
+          },
+          {
+            "heading": "Christ Defended"
+          },
+          {
+            "heading": "Christ Dignified"
+          }
+        ],
+        "topics": [
+          "Jesus Christ",
+          "Simon the Pharisee",
+          "Sinful woman",
+          "Forgiveness",
+          "Faith",
+          "Love",
+          "Hospitality",
+          "Pharisees",
+          "Grace",
+          "Repentance",
+          "Cultural background"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "CHRIST IN THE PHARISEES HOUSE.docx",
+          "preservedFilename": "CHRIST IN THE PHARISEES HOUSE.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/CHRIST IN THE PHARISEES HOUSE.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.009",
+      "slug": "christ-s-resurrection-and-ours-in-romans-1ab47194011e",
+      "id": "BRL-SER-411.009",
+      "title": "Christ’s Resurrection and Ours in Romans",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 9,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Romans (selected resurrection texts)"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a56cc290647ac4762f8b80a2b0959935eeeb97b983b368f098f873e37efe8b4f",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/CHRIST RESURRECTION AND OUR IN ROMANS.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 40035,
+          "sha256": "acc4b06cd870321c491cf080a7e7d97eaf9f4ffd0356e57937b5f9b1dec62618",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.009/01-l3/CHRIST%20RESURRECTION%20AND%20OUR%20IN%20ROMANS.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.009",
+        "slug": "christ-s-resurrection-and-ours-in-romans",
+        "title": "Christ’s Resurrection and Ours in Romans",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 9
+        },
+        "mainText": [
+          "Romans (selected resurrection texts)"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "Christ’s resurrection establishes His identity and saving work and provides the pattern, power, promise, assurance, and confession connected with the Christian’s resurrection and new life.",
+        "proposition": "Christ’s resurrection establishes His identity and saving work and provides the pattern, power, promise, assurance, and confession connected with the Christian’s resurrection and new life.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "The Proof of Christ Deity"
+          },
+          {
+            "heading": "The Pledge of Our Justification"
+          },
+          {
+            "heading": "The Pattern of New Life in Christ"
+          },
+          {
+            "heading": "The Power for the Expression of That Life"
+          },
+          {
+            "heading": "The Promise of Our Resurrection"
+          },
+          {
+            "heading": "The Provision for Our Peace of Mind"
+          },
+          {
+            "heading": "The Profession of Our Faith for Salvation"
+          }
+        ],
+        "topics": [
+          "Resurrection of Christ",
+          "Christian resurrection",
+          "Romans",
+          "Deity of Christ",
+          "Justification",
+          "Baptism",
+          "Newness of life",
+          "Holy Spirit",
+          "Intercession",
+          "Confession",
+          "Faith",
+          "Salvation",
+          "Assurance"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "CHRIST’S RESURRECTION AND OUR’S IN ROMANS.docx",
+          "preservedFilename": "CHRIST RESURRECTION AND OUR IN ROMANS.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/CHRIST RESURRECTION AND OUR IN ROMANS.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.010",
+      "slug": "a-few-words-concerning-the-word-f76691222b50",
+      "id": "BRL-SER-411.010",
+      "title": "A Few Words Concerning the Word",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 10,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "John 1:1,14"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "4f1a8dcbc328c49376a53f54c09a5b618b4902be38d8f068d14452e9895e69ad",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/Concerning the advent of Christ.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 25806,
+          "sha256": "e5cdad1d954d45e24bf0e0bec734623f6b8b0e255e078c8b856ad65c1d052176",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.010/01-l3/Concerning%20the%20advent%20of%20Christ.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.010",
+        "slug": "a-few-words-concerning-the-word",
+        "title": "A Few Words Concerning the Word",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 10
+        },
+        "mainText": [
+          "John 1:1,14"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "The incarnation reveals the eternal Word who was with God and was God, became flesh, dwelt among humanity, and manifested divine grace and truth.",
+        "proposition": "The incarnation reveals the eternal Word who was with God and was God, became flesh, dwelt among humanity, and manifested divine grace and truth.",
+        "sermonQuestion": "",
+        "outline": [],
+        "topics": [
+          "Jesus Christ",
+          "Incarnation",
+          "Logos",
+          "Word of God",
+          "Deity of Christ",
+          "God with humanity",
+          "Tabernacle",
+          "Grace",
+          "Truth",
+          "John's Prologue"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "Concerning the advent of Christ.docx",
+          "preservedFilename": "Concerning the advent of Christ.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/Concerning the advent of Christ.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.011",
+      "slug": "excuses-4b79667a365f",
+      "id": "BRL-SER-411.011",
+      "title": "Excuses",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 11,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Luke 14:15-24"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "52ac60438c7f457480f419d29f8677a69e2ef0ca473a9e2f7036b8bc28330584",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/Excuses during the banquet.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 20311,
+          "sha256": "977463b6ba157cf9ce013f43689ca0302e2f481de0c00c470893b2e3af92705c",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.011/01-l3/Excuses%20during%20the%20banquet.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.011",
+        "slug": "excuses",
+        "title": "Excuses",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 11
+        },
+        "mainText": [
+          "Luke 14:15-24"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "",
+        "proposition": "",
+        "sermonQuestion": "",
+        "outline": [],
+        "topics": [],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "Excuses during the banquet.docx",
+          "preservedFilename": "Excuses during the banquet.docx",
+          "contentPreservation": "Original Josh Hetrick legacy file preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/Excuses during the banquet.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.012",
+      "slug": "five-points-of-the-star-of-jacob-606f425c7aca",
+      "id": "BRL-SER-411.012",
+      "title": "Five Points of the Star of Jacob",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 12,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "Numbers 24:17"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "cf01032202e5aa1301afee79f2e434a9cff7a3449226321eb336c966835d8b91",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/five points of the star of jacob.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 40797,
+          "sha256": "6c5060c65e895cf38bc6e4bed9df489c3ee799c2e472f7277d9cf9bdb501bf3b",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.012/01-l3/five%20points%20of%20the%20star%20of%20jacob.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.012",
+        "slug": "five-points-of-the-star-of-jacob",
+        "title": "Five Points of the Star of Jacob",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 12
+        },
+        "mainText": [
+          "Numbers 24:17"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "The Star out of Jacob points to Christ through His kingship, brightness, guidance, wonder, and glory.",
+        "proposition": "The Star out of Jacob points to Christ through His kingship, brightness, guidance, wonder, and glory.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "A Symbol of His Kingship"
+          },
+          {
+            "heading": "A Sample of His Brightness"
+          },
+          {
+            "heading": "A Source of His Guidance"
+          },
+          {
+            "heading": "A Substance of His Wonder"
+          },
+          {
+            "heading": "A Signal of His Glory"
+          }
+        ],
+        "topics": [
+          "Jesus Christ",
+          "Star of Jacob",
+          "Numbers 24:17",
+          "Messianic prophecy",
+          "Kingship of Christ",
+          "Light",
+          "Guidance",
+          "Star of Bethlehem",
+          "Glory of Christ",
+          "Nativity"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "five points of the star of jacob.docx",
+          "preservedFilename": "five points of the star of jacob.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/five points of the star of jacob.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.013",
+      "slug": "five-women-in-the-genealogy-of-jesus-bf2559cd08a4",
+      "id": "BRL-SER-411.013",
+      "title": "Five Women in the Genealogy of Jesus",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 13,
+      "speaker": "Josh Hetrick",
+      "primaryText": [],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "eb6853762c530694f7b3e4ea9269066a88da17dfb6f642b7c8c85b21c810371a",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/five women in jesus' genealogy.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 13950,
+          "sha256": "0250309ce6070ed8efae75b1729a84a79bb2e6ead5a9b462a275afeb2a57b9d3",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.013/01-l3/five%20women%20in%20jesus'%20genealogy.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.013",
+        "slug": "five-women-in-the-genealogy-of-jesus",
+        "title": "Five Women in the Genealogy of Jesus",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 13
+        },
+        "mainText": [],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "",
+        "proposition": "",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "Tamar — played the harlot"
+          },
+          {
+            "heading": "Rehab — the converted harlot"
+          },
+          {
+            "heading": "Ruth — a Moabite, a foreigner"
+          },
+          {
+            "heading": "Bathsheba — an adulteress"
+          },
+          {
+            "heading": "Mary — a virgin, the mother of Jesus, a good and blessed woman, but not immaculate"
+          }
+        ],
+        "topics": [
+          "Genealogy of Jesus",
+          "Tamar",
+          "Rehab",
+          "Ruth",
+          "Bathsheba",
+          "Mary"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "five women in jesus’ genealogy.docx",
+          "preservedFilename": "five women in jesus' genealogy.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon outline preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/five women in jesus' genealogy.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.014",
+      "slug": "healing-at-the-pool-of-bethesda-1d6f72b48886",
+      "id": "BRL-SER-411.014",
+      "title": "Healing at the Pool of Bethesda",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 14,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "John 5:1-17"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "2c382cd4f8e76c82c52eddcd773f821f9e31d3323674421f58a5dbaf4831301e",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/healing at the pool.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 25748,
+          "sha256": "2e40993b568306dd92c4fa74dca4ab5db2a465e5350fb9d69869924c2d6fb636",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.014/01-l3/healing%20at%20the%20pool.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.014",
+        "slug": "healing-at-the-pool-of-bethesda",
+        "title": "Healing at the Pool of Bethesda",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 14
+        },
+        "mainText": [
+          "John 5:1-17"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "Jesus' healing at Bethesda contrasts His compassion with human apathy and confirms His divine authority.",
+        "proposition": "Jesus' healing at Bethesda contrasts His compassion with human apathy and confirms His divine authority.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "At the Pool of Bethesda We See an Unrealized Cure"
+          },
+          {
+            "heading": "At the Pool of Bethesda We See an Unabashed Command"
+          },
+          {
+            "heading": "At the Pool of Bethesda We See an Unjustified Criticism"
+          },
+          {
+            "heading": "At the Pool of Bethesda We See an Unapologetic Confirmation"
+          }
+        ],
+        "topics": [
+          "Jesus Christ",
+          "Pool of Bethesda",
+          "Healing",
+          "Compassion",
+          "Apathy",
+          "Sabbath",
+          "Miracles",
+          "Divinity of Christ",
+          "Faith",
+          "Obedience",
+          "Criticism"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "healing at the pool .docx",
+          "preservedFilename": "healing at the pool.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/healing at the pool.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.015",
+      "slug": "jesus-according-to-john-a5d1d7df1056",
+      "id": "BRL-SER-411.015",
+      "title": "Jesus According to John",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 15,
+      "speaker": "Josh Hetrick",
+      "primaryText": [
+        "John 20:28"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "2d2fdd25386afa903a8308b42e60977ed14d49e5b6a9407b1b8048d17e849c09",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/JESUS ACCORDING TO JOHN.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 28944,
+          "sha256": "7b0a0c5bf6ef26ec586809d6147eabcde3ecbf4c971e47cd3bc51f208976b794",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.015/01-l3/JESUS%20ACCORDING%20TO%20JOHN.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.015",
+        "slug": "jesus-according-to-john",
+        "title": "Jesus According to John",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 15
+        },
+        "mainText": [
+          "John 20:28"
+        ],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "John's Gospel presents Jesus as divine through His titles, claims, works, and the witnesses that testify concerning Him.",
+        "proposition": "John's Gospel presents Jesus as divine through His titles, claims, works, and the witnesses that testify concerning Him.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "Three Deific Phrases in the Gospel of John"
+          },
+          {
+            "heading": "Witnesses to His Deity in John 5"
+          }
+        ],
+        "topics": [
+          "Jesus Christ",
+          "Gospel of John",
+          "Deity of Christ",
+          "Thomas",
+          "Only Begotten Son",
+          "Son of Man",
+          "Good Shepherd",
+          "Messianic prophecy",
+          "Witnesses to Christ",
+          "John the Baptist",
+          "Miracles",
+          "Scripture"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "JESUS ACCORDING TO JOHN.docx",
+          "preservedFilename": "JESUS ACCORDING TO JOHN.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/JESUS ACCORDING TO JOHN.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-411/BRL-SER-411.016",
+      "slug": "jesus-the-good-shepherd-of-your-souls-475aff2e8894",
+      "id": "BRL-SER-411.016",
+      "title": "Jesus, the Good Shepherd of Your Souls",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Josh Hetrick Legacy Sermons",
+      "seriesSequence": 16,
+      "speaker": "Josh Hetrick",
+      "primaryText": [],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "361caeda2f8533af2374cdac93f004f23f3c7ad9351509e4f4a2fe8470cdde2c",
+      "resources": [
+        {
+          "resourceKey": "legacy-sermon",
+          "path": "01-l3/Jesus, The Good Shepherd of your Souls FINAL.docx",
+          "role": "legacy-sermon",
+          "format": "docx",
+          "bytes": 30661,
+          "sha256": "7bf90422d42cfeb501ba3855adf6949fc86e3396ddd9a513760471bc3f58b329",
+          "downloadUrl": "/downloads/sermons/BRL-SER-411.016/01-l3/Jesus%2C%20The%20Good%20Shepherd%20of%20your%20Souls%20FINAL.docx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-411.016",
+        "slug": "jesus-the-good-shepherd-of-your-souls",
+        "title": "Jesus, the Good Shepherd of Your Souls",
+        "status": "published",
+        "speaker": {
+          "name": "Josh Hetrick"
+        },
+        "series": {
+          "name": "Josh Hetrick Legacy Sermons",
+          "sequence": 16
+        },
+        "mainText": [],
+        "sermonType": {
+          "primary": "Topical"
+        },
+        "theme": "Jesus is the Good Shepherd who provides for, protects, searches for, and ultimately separates the souls entrusted to Him.",
+        "proposition": "Jesus is the Good Shepherd who provides for, protects, searches for, and ultimately separates the souls entrusted to Him.",
+        "sermonQuestion": "",
+        "outline": [
+          {
+            "heading": "The Good Shepherd Provides"
+          },
+          {
+            "heading": "The Good Shepherd Protects"
+          },
+          {
+            "heading": "The Good Shepherd Searches"
+          },
+          {
+            "heading": "The Good Shepherd Separates"
+          }
+        ],
+        "topics": [
+          "Jesus Christ",
+          "Good Shepherd",
+          "Shepherd of souls",
+          "Sheep",
+          "Awassi sheep",
+          "Bedouin shepherding",
+          "Provision",
+          "Protection",
+          "Lost sheep",
+          "Salvation",
+          "Judgment",
+          "Sheep and goats",
+          "Eternal life"
+        ],
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Josh Hetrick Legacy Sermons",
+          "originalFilename": "Jesus, The Good Shepherd of your Souls FINAL.docx",
+          "preservedFilename": "Jesus, The Good Shepherd of your Souls FINAL.docx",
+          "contentPreservation": "Original Josh Hetrick legacy sermon preserved unchanged.",
+          "importDate": "2026-09-13"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-sermon",
+            "path": "01-l3/Jesus, The Good Shepherd of your Souls FINAL.docx",
+            "role": "legacy-sermon",
+            "format": "docx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.001",
+      "slug": "the-introduction-710a6fc88d35",
+      "id": "BRL-SER-412.001",
+      "title": "The Introduction",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 1,
+      "speaker": "Derek Dodd",
+      "primaryText": [],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a04f0c9b59a04c3c8a4c93e6f64632aab56fb4210b0bb193533d1aee805ee6e6",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 1 THE INTRODUCTION.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 535228,
+          "sha256": "6dfcc0c24f9982118be118d29b457750a72f825cfa353890dd1a4c5d3317e14f",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.001/03-presentation/HEBREWS%201%20THE%20INTRODUCTION.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.001",
+        "slug": "the-introduction",
+        "title": "The Introduction",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 1
+        },
+        "mainText": [],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Introduction to the book of Hebrews, its background, audience, purpose, major divisions, and warnings.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-001",
+          "originalFilename": "HEBREWS 1 THE INTRODUCTION.pptx",
+          "preservedFilename": "HEBREWS 1 THE INTRODUCTION.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 1 THE INTRODUCTION.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.002",
+      "slug": "the-voice-of-god-e8d50110ed89",
+      "id": "BRL-SER-412.002",
+      "title": "The Voice of God",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 2,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 1:1-3"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "228b3bb743c52f5fc87055b9aadd5d6b40072f1b34ba981f619b2d072e981ca4",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 2 THE VOICE OF GOD.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 138245,
+          "sha256": "89b61a06e762afbbaffbc6745d7dc8579722cb52d6109f10f63c90b52885500b",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.002/03-presentation/HEBREWS%202%20THE%20VOICE%20OF%20GOD.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.002",
+        "slug": "the-voice-of-god",
+        "title": "The Voice of God",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 2
+        },
+        "mainText": [
+          "Hebrews 1:1-3"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "God has spoken ultimately through His Son.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-002",
+          "originalFilename": "HEBREWS 2 THE VOICE OF GOD.pptx",
+          "preservedFilename": "HEBREWS 2 THE VOICE OF GOD.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 2 THE VOICE OF GOD.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.003",
+      "slug": "jesus-superior-to-the-angels-6a64464ec9e7",
+      "id": "BRL-SER-412.003",
+      "title": "Jesus Superior to the Angels",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 3,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 1:4-14"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "919ebe16ee0847a83fae7c5cc2ec7602ee47ef9e46bf72f8d8dc9722892e07d7",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 3 JESUS SUPERIOR THAN THE ANGELS.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 275707,
+          "sha256": "9d1ee67e6487d05ab5522d2a2c8a1e62ba0d9e046ace905d03600c21be29a208",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.003/03-presentation/HEBREWS%203%20JESUS%20SUPERIOR%20THAN%20THE%20ANGELS.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.003",
+        "slug": "jesus-superior-to-the-angels",
+        "title": "Jesus Superior to the Angels",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 3
+        },
+        "mainText": [
+          "Hebrews 1:4-14"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Jesus Christ is superior to the angels.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-003",
+          "originalFilename": "HEBREWS 3 JESUS SUPERIOR THAN THE ANGELS.pptx",
+          "preservedFilename": "HEBREWS 3 JESUS SUPERIOR THAN THE ANGELS.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 3 JESUS SUPERIOR THAN THE ANGELS.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.004",
+      "slug": "drifting-away-2773115a3881",
+      "id": "BRL-SER-412.004",
+      "title": "Drifting Away",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 4,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 2:1-4"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "ad27e33a2925a5493af5839ef407cda8bd5a8508c1892b01e3d9294a8b01a741",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 4 DRIFTING AWAY.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 2609323,
+          "sha256": "bdca8f5389c038fa4039e927cd9bf997ce7c92d67f0bdabb974588ccec9141a3",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.004/03-presentation/HEBREWS%204%20DRIFTING%20AWAY.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.004",
+        "slug": "drifting-away",
+        "title": "Drifting Away",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 4
+        },
+        "mainText": [
+          "Hebrews 2:1-4"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Christians must give earnest attention to God's word so they do not drift away.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-004",
+          "originalFilename": "HEBREWS 4 DRIFTING AWAY.pptx",
+          "preservedFilename": "HEBREWS 4 DRIFTING AWAY.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 4 DRIFTING AWAY.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.005",
+      "slug": "jesus-superior-humanity-9850cae897ef",
+      "id": "BRL-SER-412.005",
+      "title": "Jesus Superior Humanity",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 5,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 2:5-18"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "7ca509f8bb54851cee63b8adc07d558889f78df4da689610843eec064adb22c6",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 5 JESUS SUPERIOR HUMANITY.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 193246,
+          "sha256": "f70211d6ca8b794f42308f17c1903a391edcd4918b22d4119a62a1c4f6668b18",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.005/03-presentation/HEBREWS%205%20JESUS%20SUPERIOR%20HUMANITY.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.005",
+        "slug": "jesus-superior-humanity",
+        "title": "Jesus Superior Humanity",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 5
+        },
+        "mainText": [
+          "Hebrews 2:5-18"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "The humanity of Christ demonstrates His superiority and His work for mankind.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-005",
+          "originalFilename": "HEBREWS 5 JESUS SUPERIOR HUMANITY.pptx",
+          "preservedFilename": "HEBREWS 5 JESUS SUPERIOR HUMANITY.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 5 JESUS SUPERIOR HUMANITY.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.006",
+      "slug": "jesus-is-superior-to-moses-7fb26940dac7",
+      "id": "BRL-SER-412.006",
+      "title": "Jesus Is Superior to Moses",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 6,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 3:1-6"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "c5569ce1262ca3677e91b31b07be16d58675b87a9518c88098486bf701460924",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 6 JESUS SUPERIOR TO MOSES.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 302267,
+          "sha256": "1afc93dd67bc286c6cd1490def100cd3adc286b1498cda7f3bf3fbffbcea66a5",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.006/03-presentation/HEBREWS%206%20JESUS%20SUPERIOR%20TO%20MOSES.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.006",
+        "slug": "jesus-is-superior-to-moses",
+        "title": "Jesus Is Superior to Moses",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 6
+        },
+        "mainText": [
+          "Hebrews 3:1-6"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Jesus is worthy of greater glory than Moses.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-006",
+          "originalFilename": "HEBREWS 6 JESUS SUPERIOR TO MOSES.pptx",
+          "preservedFilename": "HEBREWS 6 JESUS SUPERIOR TO MOSES.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 6 JESUS SUPERIOR TO MOSES.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.007",
+      "slug": "warning-from-the-wilderness-26ce3591a1be",
+      "id": "BRL-SER-412.007",
+      "title": "Warning from the Wilderness",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 7,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 3:7-19"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "0790e240bfbb56227bb9de6b0cd6a1a487d1791a36207a4b8e0aeec4f2409b81",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 7 WARNINGS FROM THE WILDERNESS.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 207895,
+          "sha256": "158f8ecf56dbae5d0eff97e2ca760820e287a92e72f3589a1df9fb9d859f541e",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.007/03-presentation/HEBREWS%207%20WARNINGS%20FROM%20THE%20WILDERNESS.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.007",
+        "slug": "warning-from-the-wilderness",
+        "title": "Warning from the Wilderness",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 7
+        },
+        "mainText": [
+          "Hebrews 3:7-19"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Israel's wilderness failure warns Christians against unbelief and hardened hearts.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-007",
+          "originalFilename": "HEBREWS 7 WARNINGS FROM THE WILDERNESS.pptx",
+          "preservedFilename": "HEBREWS 7 WARNINGS FROM THE WILDERNESS.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 7 WARNINGS FROM THE WILDERNESS.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.008",
+      "slug": "entering-the-rest-71e2e0f51f0e",
+      "id": "BRL-SER-412.008",
+      "title": "Entering the Rest",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Hebrews",
+      "seriesSequence": 8,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Hebrews 4:1-11"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "6b9fca97e3d7fc4c073debd069fb4bdd8f5fa7a93d2a0329b9e5022adb72c450",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/HEBREWS 8 ENTERING THE REST.pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 138650,
+          "sha256": "cf8a76f00bb6e46a5879b88098da262f114690595840d1f9cfa59b4da10a91e4",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.008/03-presentation/HEBREWS%208%20ENTERING%20THE%20REST.pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.008",
+        "slug": "entering-the-rest",
+        "title": "Entering the Rest",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Hebrews",
+          "sequence": 8
+        },
+        "mainText": [
+          "Hebrews 4:1-11"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "God's people must remain faithful in order to enter His promised rest.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-HEB-008",
+          "originalFilename": "HEBREWS 8 ENTERING THE REST.pptx",
+          "preservedFilename": "HEBREWS 8 ENTERING THE REST.pptx",
+          "contentPreservation": "Original Derek Dodd legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/HEBREWS 8 ENTERING THE REST.pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.030",
+      "slug": "sitting-at-the-feet-of-jesus-1fcd0e52a6ad",
+      "id": "BRL-SER-412.030",
+      "title": "Sitting at the Feet of Jesus",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Sitting at the Feet of Rabbi Jesus",
+      "seriesSequence": 5,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Luke 10:38-42"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "a2549dbb15481d096c6de02971ecf412ab43d2e794dd13fcc63f13ef9acd7cd8",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/sitting at the feet of Jesus (1).pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 174820,
+          "sha256": "954a10e0233debb261b65c9098fff4f5d2243dbfc265adc2bec870c0778aca89",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.030/03-presentation/sitting%20at%20the%20feet%20of%20Jesus%20(1).pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.030",
+        "slug": "sitting-at-the-feet-of-jesus",
+        "title": "Sitting at the Feet of Jesus",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Sitting at the Feet of Rabbi Jesus",
+          "sequence": 5
+        },
+        "mainText": [
+          "Luke 10:38-42"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Sitting at the feet of Jesus describes the relationship of a disciple to the Rabbi and the importance of learning His ways.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-RABBI-410.005",
+          "originalFilename": "sitting at the feet of Jesus (1).pptx",
+          "preservedFilename": "sitting at the feet of Jesus (1).pptx",
+          "contentPreservation": "Original Derek Dodd Rabbi legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/sitting at the feet of Jesus (1).pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.031",
+      "slug": "jesus-claims-of-deity-b2bec91cde68",
+      "id": "BRL-SER-412.031",
+      "title": "Jesus' Claims of Deity",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Sitting at the Feet of Rabbi Jesus",
+      "seriesSequence": 2,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "John 10:14-15"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "c0ee8d606d3ad919a9aeb73f8a508e60b6e2b27fec47621a08c131330fe75cee",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/Jesus Claims of Diety (1).pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 380800,
+          "sha256": "67237d08bfc5b0d72979e9b683299fbfa23451f8aba3431b5c2dc7aefe7d5213",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.031/03-presentation/Jesus%20Claims%20of%20Diety%20(1).pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.031",
+        "slug": "jesus-claims-of-deity",
+        "title": "Jesus' Claims of Deity",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Sitting at the Feet of Rabbi Jesus",
+          "sequence": 2
+        },
+        "mainText": [
+          "John 10:14-15"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Jesus used Scripture and familiar biblical imagery to reveal His identity and deity.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-RABBI-410.002",
+          "originalFilename": "Jesus Claims of Diety (1).pptx",
+          "preservedFilename": "Jesus Claims of Diety (1).pptx",
+          "contentPreservation": "Original Derek Dodd Rabbi legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/Jesus Claims of Diety (1).pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.032",
+      "slug": "passover-lamb-64e811155be7",
+      "id": "BRL-SER-412.032",
+      "title": "Passover Lamb",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Sitting at the Feet of Rabbi Jesus",
+      "seriesSequence": 4,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Exodus 12"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "982988a1c517cbbeecbcafb826c529dfe7b106244aa9aa928d2aa522b2eecfe1",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/Passover Lamb (1).pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 650031,
+          "sha256": "736e37a18451ef2fcefa99eadf1044a972282c518eaaf0c7c5e75ca9390a7f1a",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.032/03-presentation/Passover%20Lamb%20(1).pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.032",
+        "slug": "passover-lamb",
+        "title": "Passover Lamb",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Sitting at the Feet of Rabbi Jesus",
+          "sequence": 4
+        },
+        "mainText": [
+          "Exodus 12"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "The Passover and its associated feast imagery point to Jesus as the Passover Lamb, sustaining bread, and firstfruits.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-RABBI-410.004",
+          "originalFilename": "Passover Lamb (1).pptx",
+          "preservedFilename": "Passover Lamb (1).pptx",
+          "contentPreservation": "Original Derek Dodd Rabbi legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/Passover Lamb (1).pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.033",
+      "slug": "jesus-model-prayer-b9f79966785a",
+      "id": "BRL-SER-412.033",
+      "title": "Jesus' Model Prayer",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Sitting at the Feet of Rabbi Jesus",
+      "seriesSequence": 3,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 6:5-15"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "ea5ab80f1554a6752d9f1f532a0d55c22fa29199034d4640c9dc0b0de43fa923",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/JESUS' MODEL PRAYER (1).pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 312515,
+          "sha256": "741880add8adb56253aaa780c71d15aaa005cb9837bc2abadf2735ddfee1739d",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.033/03-presentation/JESUS'%20MODEL%20PRAYER%20(1).pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.033",
+        "slug": "jesus-model-prayer",
+        "title": "Jesus' Model Prayer",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Sitting at the Feet of Rabbi Jesus",
+          "sequence": 3
+        },
+        "mainText": [
+          "Matthew 6:5-15"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Jesus' model prayer teaches His disciples how to approach God with reverence, dependence, forgiveness, and submission to His will.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-RABBI-410.003",
+          "originalFilename": "JESUS' MODEL PRAYER (1).pptx",
+          "preservedFilename": "JESUS' MODEL PRAYER (1).pptx",
+          "contentPreservation": "Original Derek Dodd Rabbi legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/JESUS' MODEL PRAYER (1).pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-412/BRL-SER-412.034",
+      "slug": "blessing-life-9e26ee64e2f5",
+      "id": "BRL-SER-412.034",
+      "title": "Blessing Life",
+      "lifecycle": "published",
+      "legacyImport": true,
+      "series": "Sitting at the Feet of Rabbi Jesus",
+      "seriesSequence": 1,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 5:1-12"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "2d4847d077036233bd129ae5089bb7ff6f13fa174bd2359af5cbbcc6811d8045",
+      "resources": [
+        {
+          "resourceKey": "legacy-presentation",
+          "path": "03-presentation/blessing life (1).pptx",
+          "role": "presentation",
+          "format": "pptx",
+          "bytes": 553940,
+          "sha256": "ada8885a55448e8b30cc7d023b6105eb9bd975fdf96c721f5b19ec3af198c5b0",
+          "downloadUrl": "/downloads/sermons/BRL-SER-412.034/03-presentation/blessing%20life%20(1).pptx"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-412.034",
+        "slug": "blessing-life",
+        "title": "Blessing Life",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Sitting at the Feet of Rabbi Jesus",
+          "sequence": 1
+        },
+        "mainText": [
+          "Matthew 5:1-12"
+        ],
+        "sermonType": {
+          "primary": "Legacy Sermon"
+        },
+        "theme": "Life must be saturated with prayer, producing gratitude, a positive attitude, thoughtfulness, and awareness of God's blessings.",
+        "legacyImport": {
+          "isLegacy": true,
+          "collection": "Derek Dodd Legacy Sermons",
+          "legacySeriesLabel": "SER-RABBI-410.001",
+          "originalFilename": "blessing life (1).pptx",
+          "preservedFilename": "blessing life (1).pptx",
+          "contentPreservation": "Original Derek Dodd Rabbi legacy sermon presentation preserved unchanged.",
+          "importDate": "2026-09-18"
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "legacy-presentation",
+            "path": "03-presentation/blessing life (1).pptx",
+            "role": "presentation",
+            "format": "pptx"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "2.0",
+  "id": "BRL-SER-410.002",
+  "slug": "the-plan-of-salvation",
+  "title": "The Plan of Salvation",
+  "subtitle": "What Will You Do with Jesus?",
+  "status": "published",
+
+  "speaker": {
+    "name": "Derek Dodd"
+  },
+
+  "series": null,
+
+  "mainText": [
+    "Acts 2:36-42"
+  ],
+
+  "sermonType": "Topical / Expository-Topical",
+
+  "proposition": "God has revealed through the gospel how sinners come to Christ: they hear His Word, believe in Jesus Christ, repent of sin, confess Christ, are baptized into Christ, and thereafter live in faithful obedience to Him.",
+
+  "theme": "God's revealed response to the gospel of Jesus Christ",
+
+  "version": "1.0",
+
+  "legacyImport": {
+    "isLegacy": false
+  },
+
+  "identityReview": {
+    "required": false
+  },
+
+  "review": {
+    "doctrinalApproval": true,
+    "editorialApproval": true,
+    "publicationReady": true
+  },
+
+  "resources": [
+    {
+      "resourceKey": "l2-20",
+      "role": "l2-outline",
+      "path": "../01-l2/BRL_Plan_of_Salvation_L2_20_Minute_Pulpit_Outline_V1.0.pdf",
+      "format": "pdf",
+      "durationMinutes": 20,
+      "sha256": "6abee9ef92f4911006074b829eba1fb61a815e29f147f2b7555c8efd9b34a057",
+      "bytes": 6899
+    },
+    {
+      "resourceKey": "l2-30",
+      "role": "l2-outline",
+      "path": "../01-l2/BRL_Plan_of_Salvation_L2_30_Minute_Pulpit_Outline_V1.0.pdf",
+      "format": "pdf",
+      "durationMinutes": 30,
+      "sha256": "4894b58b424cad098589b0f5c1ed2863d0aabaddff98464074c097110fac2232",
+      "bytes": 9314
+    },
+    {
+      "resourceKey": "l2-40",
+      "role": "l2-outline",
+      "path": "../01-l2/BRL_Plan_of_Salvation_L2_40_Minute_Advanced_Pulpit_Outline_V1.0.pdf",
+      "format": "pdf",
+      "durationMinutes": 40,
+      "sha256": "472ab572805f8f802fac3509310d271c372ab38b497cc140d8b9351d7e6b7571",
+      "bytes": 13924
+    },
+    {
+      "resourceKey": "l3-archive",
+      "role": "l3-archive",
+      "path": "../02-l3/BRL-SER-410.002_The-Plan-of-Salvation_L3-Archive_V1.0.pdf",
+      "format": "pdf",
+      "sha256": "0120e0f91699d21c1335d0d2ddff1327fc9b87ac21b32e0a1e9316c2bb0ed015",
+      "bytes": 244360
+    },
+    {
+      "resourceKey": "listener-handout",
+      "role": "handout",
+      "path": "../04-handout/BRL-SER-410.002_The-Plan-of-Salvation_Handout_V1.0.pdf",
+      "format": "pdf",
+      "audience": "Adult",
+      "sha256": "1958efb4d3dd7610111487ecf6e648f9bba8257c317de6a1d637df3c74c9c35e",
+      "bytes": 2256915
+    }
+  ]
+}

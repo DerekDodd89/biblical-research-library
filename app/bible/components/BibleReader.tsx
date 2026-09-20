@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import { BibleChapter, getChapter } from "@/lib/bible";
 import { useBibleState } from "@/lib/bible-state";
+import { useSelectedVerse } from "@/lib/selected-verse";
 
 export default function BibleReader() {
   const {
@@ -14,6 +15,11 @@ export default function BibleReader() {
     setTranslation,
     goTo,
   } = useBibleState();
+
+  const {
+    selectedVerse,
+    setSelectedVerse,
+  } = useSelectedVerse();
 
   const [chapterData, setChapterData] =
     useState<BibleChapter | null>(null);
@@ -49,7 +55,7 @@ export default function BibleReader() {
       {/* Reader Toolbar */}
       {/* ================================================= */}
 
-      <div className="flex items-center justify-between border-b #8b6a2b px-6 py-4">
+      <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
 
         <div className="flex items-center gap-2">
 
@@ -57,38 +63,30 @@ export default function BibleReader() {
             onClick={() =>
               goTo(book, Math.max(1, chapter - 1))
             }
-            className="rounded-lg border #8b6a2b p-2 hover:bg-slate-800"
+            className="rounded-lg border border-white/10 p-2 hover:bg-slate-800"
           >
             <ChevronLeft size={20} />
           </button>
 
           <button
-            onClick={() =>
-              goTo(book, chapter + 1)
-            }
-            className="rounded-lg border #8b6a2b p-2 hover:bg-slate-800"
+            onClick={() => goTo(book, chapter + 1)}
+            className="rounded-lg border border-white/10 p-2 hover:bg-slate-800"
           >
             <ChevronRight size={20} />
           </button>
 
         </div>
 
-        <div className="text-center">
-
-          <h2 className="text-2xl font-bold">
-
-            {book} {chapter}
-
-          </h2>
-
-        </div>
+        <h2 className="text-2xl font-bold">
+          {book} {chapter}
+        </h2>
 
         <select
           value={translation}
           onChange={(e) =>
             setTranslation(e.target.value)
           }
-          className="rounded-lg border #8b6a2b bg-[#08131f] px-4 py-2"
+          className="rounded-lg border border-white/10 bg-[#08131f] px-4 py-2"
         >
           <option value="ASV">ASV</option>
           <option value="KJV">KJV</option>
@@ -101,26 +99,46 @@ export default function BibleReader() {
       {/* Scripture */}
       {/* ================================================= */}
 
-      <div className="space-y-5 p-8 text-lg leading-10">
+      <div className="space-y-2 p-8 text-lg leading-10">
 
-        {chapterData.verses.map((verse) => (
+        {chapterData.verses.map((verse) => {
 
-          <div
-            key={verse.verse}
-            className="cursor-pointer rounded-lg p-2 transition hover:bg-slate-800"
-          >
+          const selected =
+            selectedVerse?.book === book &&
+            selectedVerse?.chapter === chapter &&
+            selectedVerse?.verse === verse.verse;
 
-            <span className="mr-3 font-bold text-amber-400">
+          return (
 
-              {verse.verse}
+            <div
+              key={verse.verse}
+              onClick={() =>
+                setSelectedVerse({
+                  book,
+                  chapter,
+                  verse: verse.verse,
+                  translation,
+                })
+              }
+              className={`cursor-pointer rounded-xl border p-3 transition-all duration-200 ${
+                selected
+                  ? "border-amber-500 bg-amber-500/10"
+                  : "border-transparent hover:border-slate-700 hover:bg-slate-800/40"
+              }`}
+            >
 
-            </span>
+              <span className="mr-3 font-bold text-amber-400">
 
-            {verse.text}
+                {verse.verse}
 
-          </div>
+              </span>
 
-        ))}
+              {verse.text}
+
+            </div>
+
+          );
+        })}
 
       </div>
 

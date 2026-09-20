@@ -95,7 +95,7 @@ export default async function SermonSeriesDetailPage({
 
                     <div className="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm text-neutral-300">
                       <p>{sermon.primaryText}</p>
-                      <p>{sermon.estimatedMinutes} minutes</p>
+                      <p>{sermon.estimatedMinutes ? sermon.estimatedMinutes + " minutes" : "Length not recorded"}</p>
                     </div>
                   </div>
 

@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sermons:sync": "node scripts/sermon-catalog.mjs",
+    "sermons:check": "node scripts/sermon-catalog.mjs --check",
+    "test:sermons": "node --test scripts/sermon-catalog.test.mjs",
+    "predev": "npm run sermons:sync",
+    "prebuild": "npm run sermons:sync"
   },
   "dependencies": {
     "lucide-react": "^1.26.0",

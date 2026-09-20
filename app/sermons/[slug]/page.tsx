@@ -3,8 +3,12 @@ import { notFound } from "next/navigation";
 import ModuleNavigation from "@/components/layout/ModuleNavigation";
 import ResourceDetails, {
   type ResourceDetailData,
+  type ResourceFormat,
 } from "@/components/resource/ResourceDetails";
-import { getSermonBySlug } from "@/lib/sermons";
+import {
+  getSermonBySlug,
+  type CatalogResource,
+} from "@/lib/sermons";
 
 type SermonDetailsPageProps = {
   params: Promise<{
@@ -14,6 +18,44 @@ type SermonDetailsPageProps = {
     length?: string;
   }>;
 };
+
+function cleanText(value?: string): string {
+  if (!value) return "";
+
+  return value
+    .replace(/â€“/g, "–")
+    .replace(/â€”/g, "—")
+    .replace(/â€™/g, "’")
+    .replace(/â€œ/g, "“")
+    .replace(/â€/g, "”");
+}
+
+function firstDownloadable(
+  resources: CatalogResource[]
+): CatalogResource | undefined {
+  return resources.find(
+    (resource) => Boolean(resource.downloadUrl)
+  );
+}
+
+function makeFormat(
+  title: string,
+  description: string,
+  actionLabel: string,
+  icon: ResourceFormat["icon"],
+  resources: CatalogResource[]
+): ResourceFormat {
+  const downloadable = firstDownloadable(resources);
+
+  return {
+    title,
+    description,
+    actionLabel,
+    icon,
+    href: downloadable?.downloadUrl ?? undefined,
+    available: Boolean(downloadable?.downloadUrl),
+  };
+}
 
 export default async function SermonDetailsPage({
   params,
@@ -28,133 +70,248 @@ export default async function SermonDetailsPage({
     notFound();
   }
 
+  /*
+   * ---------------------------------------------------------
+   * SERMON LENGTH
+   * ---------------------------------------------------------
+   */
+
+  const availableLengths = [
+    ...new Set(
+      sermon.inventory
+        .map((resource) => resource.durationMinutes)
+        .filter(
+          (minutes): minutes is number =>
+            minutes === 20 ||
+            minutes === 30 ||
+            minutes === 40
+        )
+    ),
+  ].sort((a, b) => a - b);
+
   const requestedLength = Number(length);
 
   const selectedLength =
-    requestedLength === 20 ||
-    requestedLength === 30 ||
-    requestedLength === 40
+    availableLengths.includes(requestedLength)
       ? requestedLength
-      : sermon.estimatedMinutes;
+      : availableLengths.includes(30)
+        ? 30
+        : availableLengths[0];
 
-  const downloadBase = `/downloads/sermons/${sermon.resources.downloadFolder}`;
+  /*
+   * ---------------------------------------------------------
+   * RESOURCE GROUPING
+   * ---------------------------------------------------------
+   */
 
-  const selectedL2 =
-    sermon.resources.l2[
-      selectedLength as keyof typeof sermon.resources.l2
-    ];
+  const l3Resources = sermon.inventory.filter(
+    (resource) =>
+      resource.path.startsWith("01-l3/") ||
+      resource.role.toLowerCase().includes("l3")
+  );
 
-  const l2OutlineHref = selectedL2
-    ? `${downloadBase}/${selectedL2}`
-    : undefined;
+  const l2Resources = sermon.inventory.filter(
+    (resource) => {
+      const isL2 =
+        resource.path.startsWith("02-l2/") ||
+        resource.role.toLowerCase().includes("l2");
+
+      if (!isL2) return false;
+
+      if (!selectedLength) return true;
+
+      return (
+        resource.durationMinutes === selectedLength ||
+        resource.path.includes(
+          `${selectedLength}_Minute`
+        ) ||
+        resource.path.includes(
+          `${selectedLength}-Minute`
+        )
+      );
+    }
+  );
+
+  const presentationResources = sermon.inventory.filter(
+    (resource) =>
+      resource.path.startsWith("03-presentation/") ||
+      resource.format.toLowerCase() === "pptx" ||
+      resource.role
+        .toLowerCase()
+        .includes("presentation")
+  );
+
+  const handoutResources = sermon.inventory.filter(
+    (resource) => {
+      const path = resource.path.toLowerCase();
+
+      const isHandout =
+        path.startsWith("04-handouts/") ||
+        resource.role
+          .toLowerCase()
+          .includes("handout");
+
+      const internalAsset =
+        path.includes("approved_mockup_assets") ||
+        path.includes("approved-mockup-assets") ||
+        path.includes("mockup");
+
+      return isHandout && !internalAsset;
+    }
+  );
+
+  /*
+   * ---------------------------------------------------------
+   * USER-FACING FORMATS
+   * ---------------------------------------------------------
+   */
+
+  const formats: ResourceDetailData["formats"] = [];
+
+  if (l3Resources.length > 0) {
+    formats.push(
+      makeFormat(
+        "L3 Study / Archive",
+        `${l3Resources.length} exegetical study ${
+          l3Resources.length === 1 ? "resource" : "resources"
+        } supporting this sermon.`,
+        "Open L3 Resource",
+        "archive",
+        l3Resources
+      )
+    );
+  }
+
+  if (l2Resources.length > 0) {
+    formats.push(
+      makeFormat(
+        selectedLength
+          ? `L2 ${selectedLength}-Minute Outline`
+          : "L2 Sermon Outline",
+        selectedLength
+          ? `Preacher's pulpit outline prepared for the ${selectedLength}-minute sermon length.`
+          : "Preacher's pulpit outline for this sermon.",
+        "Open L2 Outline",
+        "outline",
+        l2Resources
+      )
+    );
+  }
+
+  if (presentationResources.length > 0) {
+    formats.push(
+      makeFormat(
+        "PowerPoint",
+        "Visual presentation prepared for preaching and teaching this sermon.",
+        "Download PowerPoint",
+        "powerpoint",
+        presentationResources
+      )
+    );
+  }
+
+  if (handoutResources.length > 0) {
+    formats.push(
+      makeFormat(
+        "Listener Handouts",
+        `${handoutResources.length} listener ${
+          handoutResources.length === 1
+            ? "handout"
+            : "handouts"
+        } available for this sermon.`,
+        "Open Handout",
+        "handout",
+        handoutResources
+      )
+    );
+  }
+
+  /*
+   * ---------------------------------------------------------
+   * SERMON PREVIEW
+   * ---------------------------------------------------------
+   */
+
+  const preview: string[] = [];
+
+  if (sermon.sermonQuestion) {
+    preview.push(
+      `Sermon Question: ${sermon.sermonQuestion}`
+    );
+  }
+
+  if (sermon.seriesTheme) {
+    preview.push(
+      `Series Theme: ${sermon.seriesTheme}`
+    );
+  }
+
+  preview.push(...sermon.outlinePreview);
+
+  if (preview.length === 0) {
+    preview.push(
+      "Sermon resources are available in the BRL archive."
+    );
+  }
+
+  /*
+   * ---------------------------------------------------------
+   * RESOURCE DETAILS
+   * ---------------------------------------------------------
+   */
 
   const resource: ResourceDetailData = {
     id: sermon.id,
-    title: sermon.title,
-    subtitle: sermon.subtitle,
+    title: cleanText(sermon.title),
+    subtitle: cleanText(sermon.subtitle),
+
     moduleName: "Sermons & Outlines",
 
-    series: sermon.series,
-    seriesHref: sermon.series
-      ? `/sermons/series/${sermon.series
-          .toLowerCase()
-          .replace(/[^a-z0-9]+/g, "-")
-          .replace(/^-|-$/g, "")}`
-      : undefined,
-    seriesId: sermon.series ? sermon.series : undefined,
+    series: cleanText(sermon.series),
 
-    primaryText: sermon.primaryText,
+    // The current metadata contains a series title,
+    // not a separate permanent BRL series ID.
+    seriesId: undefined,
+
+    primaryText: cleanText(sermon.primaryText),
+
     speaker: sermon.speaker,
-    audience: sermon.audience,
+    audience: sermon.audience || "General",
+
     standardLength: sermon.estimatedMinutes,
-    status: sermon.status === "published" ? "Published" : "Draft",
-    version: "1.0",
+
+    status:
+      sermon.status === "published"
+        ? "Published"
+        : sermon.status,
+
+    version: sermon.version,
 
     proposition: sermon.proposition,
-    preview: sermon.introduction.slice(0, 7),
 
-    availableLengths: (
-      Object.keys(sermon.resources.l2)
-        .map(Number)
-        .filter(
-          (value): value is 20 | 30 | 40 =>
-            value === 20 || value === 30 || value === 40
-        )
-    ),
+    preview: preview.slice(0, 5),
 
+    availableLengths,
     selectedLength,
+
     lengthSelectorHref: `/sermons/${sermon.slug}`,
 
     author: sermon.speaker,
-    dateWritten: "Not recorded",
-    lastUpdated: "August 2026",
-    publicationDate: "August 2026",
-    language: "English",
 
-    relatedResources: sermon.relatedBrls.map((id) => ({
-      id,
-      title: "Related BRL Study",
-    })),
+    dateWritten: sermon.dateWritten,
+    publicationDate: sermon.publicationDate,
+    lastUpdated: sermon.lastUpdated,
 
-    formats: [
-      {
-        title: `L2 Outline — ${selectedLength} Minutes`,
-        description:
-          "A concise, printable preaching outline prepared for the selected sermon length.",
-        actionLabel: "Download PDF",
-        href: l2OutlineHref ?? "#",
-        available: Boolean(l2OutlineHref),
-        icon: "outline",
-      },
+    language: sermon.language,
 
-      {
-        title: "L3 Sermon Archive",
-        description:
-          "The complete canonical sermon archive with expanded development.",
-        actionLabel: "Download PDF",
-        href: sermon.resources.l3Archive
-          ? `${downloadBase}/${sermon.resources.l3Archive}`
-          : "#",
-        available: Boolean(sermon.resources.l3Archive),
-        icon: "archive",
-      },
+    relatedResources: sermon.relatedBrls.map(
+      (id) => ({
+        id,
+        title: "Related BRL Study",
+      })
+    ),
 
-      {
-        title: "PowerPoint",
-        description:
-          "Presentation slides prepared for preaching and teaching.",
-        actionLabel: "Download PPTX",
-        href: sermon.resources.powerpoint
-          ? `${downloadBase}/${sermon.resources.powerpoint}`
-          : "#",
-        available: Boolean(sermon.resources.powerpoint),
-        icon: "powerpoint",
-      },
-
-      {
-        title: "Listener Handout",
-        description:
-          "A printable resource for listeners, classes, and group study.",
-        actionLabel: "Download PDF",
-        href: sermon.resources.handout
-          ? `${downloadBase}/${sermon.resources.handout}`
-          : "#",
-        available: Boolean(sermon.resources.handout),
-        icon: "handout",
-      },
-
-      {
-        title: "Download Complete Sermon Package",
-        description:
-          "All timed L2 outlines, the L3 archive, presentation, and listener handout.",
-        actionLabel: "Download ZIP",
-        href: sermon.resources.package
-          ? `${downloadBase}/${sermon.resources.package}`
-          : "#",
-        available: Boolean(sermon.resources.package),
-        icon: "package",
-      },
-    ],
+    formats,
   };
 
   return (
@@ -163,7 +320,8 @@ export default async function SermonDetailsPage({
         aria-hidden="true"
         className="pointer-events-none fixed inset-0 bg-cover bg-center bg-no-repeat opacity-[0.16]"
         style={{
-          backgroundImage: "url('/images/modules/08-sermons.png')",
+          backgroundImage:
+            "url('/images/modules/08-sermons.png')",
         }}
       />
 
