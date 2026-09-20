@@ -80,7 +80,13 @@ const NEW_TESTAMENT = [
   { name: "Revelation", chapters: 22 },
 ];
 
-export default function BibleNavigator() {
+interface BibleNavigatorProps {
+  onNavigate?: () => void;
+}
+
+export default function BibleNavigator({
+  onNavigate,
+}: BibleNavigatorProps) {
   const { goTo, book, chapter } = useBibleState();
 
   const [showOT, setShowOT] = useState(false);
