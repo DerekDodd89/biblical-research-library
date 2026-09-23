@@ -4334,6 +4334,119 @@
           }
         ]
       }
+    },
+    {
+      "packagePath": "sermons/published/BRL-SER-413/BRL-SER-413-001",
+      "slug": "but-i-say-to-you-4d721d6ac20a",
+      "id": "BRL-SER-413.001",
+      "title": "But I Say to You!",
+      "lifecycle": "published",
+      "legacyImport": false,
+      "series": "Short Devotionals",
+      "seriesSequence": 1,
+      "speaker": "Derek Dodd",
+      "primaryText": [
+        "Matthew 5:21-22",
+        "Matthew 5:38-44",
+        "Acts 2:37-41"
+      ],
+      "publicVisible": true,
+      "withheldReasons": [],
+      "manifestSha256": "846247e209897dc9756b8c18cbf44fab624978aa2f501faf04ce5bd2e29599e5",
+      "resources": [
+        {
+          "resourceKey": "l2-7",
+          "role": "l2",
+          "format": "pdf",
+          "durationMinutes": 7,
+          "path": "02-l2/BRL-SER-413-001-7min-L2-Outline.pdf",
+          "bytes": 3042617,
+          "sha256": "a347f8f4b752b9c410255389d98c2a7523d5ac6e3e8c8f627dc44b0e86b6cdb6",
+          "downloadUrl": "/downloads/sermons/BRL-SER-413.001/02-l2/BRL-SER-413-001-7min-L2-Outline.pdf"
+        },
+        {
+          "resourceKey": "l3-archive",
+          "role": "l3",
+          "format": "pdf",
+          "path": "01-l3/BRL-SER-413-001-L3-Sermon-Archive.pdf",
+          "bytes": 3042617,
+          "sha256": "a347f8f4b752b9c410255389d98c2a7523d5ac6e3e8c8f627dc44b0e86b6cdb6",
+          "downloadUrl": "/downloads/sermons/BRL-SER-413.001/01-l3/BRL-SER-413-001-L3-Sermon-Archive.pdf"
+        }
+      ],
+      "metadata": {
+        "schemaVersion": "2.0",
+        "id": "BRL-SER-413.001",
+        "slug": "but-i-say-to-you",
+        "title": "But I Say to You!",
+        "status": "published",
+        "speaker": {
+          "name": "Derek Dodd"
+        },
+        "series": {
+          "name": "Short Devotionals",
+          "sequence": 1
+        },
+        "mainText": [
+          "Matthew 5:21-22",
+          "Matthew 5:38-44",
+          "Acts 2:37-41"
+        ],
+        "supportingScriptures": [
+          "Acts 2:37-38"
+        ],
+        "sermonType": "Devotional / Invitation",
+        "theme": "Knowledge of God's will must reach the heart and produce obedient faith.",
+        "proposition": "Readiness for baptism is determined by sufficient understanding joined with a heart convicted by the gospel, not by reaching a particular age.",
+        "sermonQuestion": "When is a person truly ready to obey the gospel?",
+        "version": "1.0",
+        "outline": [
+          {
+            "point": 1,
+            "heading": "They Knew the Command",
+            "summary": "Jesus moved beyond the letter of the law to the heart.",
+            "primaryReference": "Matthew 5:21-22"
+          },
+          {
+            "point": 2,
+            "heading": "Jesus Revealed God's Purpose",
+            "summary": "God desires transformed hearts, not mere rule keeping.",
+            "primaryReference": "Matthew 5:38-44"
+          },
+          {
+            "point": 3,
+            "heading": "When Knowledge Reaches the Heart",
+            "summary": "The gospel calls for immediate obedient faith.",
+            "primaryReference": "Acts 2:37-41"
+          }
+        ],
+        "legacyImport": {
+          "isLegacy": false
+        },
+        "identityReview": {
+          "required": false
+        },
+        "review": {
+          "doctrinalApproval": true,
+          "editorialApproval": true,
+          "publicationReady": true
+        },
+        "resources": [
+          {
+            "resourceKey": "l2-7",
+            "role": "l2",
+            "format": "pdf",
+            "durationMinutes": 7,
+            "path": "02-l2/BRL-SER-413-001-7min-L2-Outline.pdf"
+          },
+          {
+            "resourceKey": "l3-archive",
+            "role": "l3",
+            "format": "pdf",
+            "path": "01-l3/BRL-SER-413-001-L3-Sermon-Archive.pdf"
+          }
+        ]
+      }
     }
   ]
 }
