@@ -92,7 +92,7 @@ export default function BibleReader() {
           <option value="KJV">KJV</option>
           <option value="ESV">ESV</option>
           <option value="NKJV">NKJV</option>
-          <option value="NASB">NSAB</option>
+          <option value="NASB">NASB</option>
         </select>
 
       </div>

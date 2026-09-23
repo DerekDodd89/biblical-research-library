@@ -8,34 +8,30 @@ export interface BibleChapter {
   verses: BibleVerse[];
 }
 
-type BibleJson = Record<
-  string,
-  Record<
-    string,
-    Record<string, string>
-  >
->;
+export interface BibleBook {
+  name: string;
+  chapters: BibleChapter[];
+}
 
-const bibleCache: Record<string, BibleJson> = {};
+export interface BibleTranslation {
+  translation: string;
+  books: BibleBook[];
+}
 
-/**
- * Load a Bible translation.
- */
+const bibleCache: Record<string, BibleTranslation> = {};
+
 export async function loadBible(
   translation = "KJV"
-): Promise<BibleJson> {
+): Promise<BibleTranslation> {
+
   if (bibleCache[translation]) {
     return bibleCache[translation];
   }
 
-  const response = await fetch(
-    `/bibles/${translation}.json`
-  );
+  const response = await fetch(`/bibles/${translation}.json`);
 
   if (!response.ok) {
-    throw new Error(
-      `Unable to load ${translation}.json`
-    );
+    throw new Error(`Unable to load ${translation}.json`);
   }
 
   const bible = await response.json();
@@ -45,55 +41,41 @@ export async function loadBible(
   return bible;
 }
 
-/**
- * Get all books.
- */
 export async function getBooks(
   translation = "KJV"
 ): Promise<string[]> {
+
   const bible = await loadBible(translation);
 
-  return Object.keys(bible);
+  return bible.books.map(book => book.name);
 }
 
-/**
- * Get one chapter.
- */
 export async function getChapter(
   bookName: string,
   chapterNumber: number,
   translation = "KJV"
 ): Promise<BibleChapter | undefined> {
+
   const bible = await loadBible(translation);
 
-  const book = bible[bookName];
+  const book = bible.books.find(
+    b => b.name.toLowerCase() === bookName.toLowerCase()
+  );
 
   if (!book) return undefined;
 
-  const chapter = book[String(chapterNumber)];
-
-  if (!chapter) return undefined;
-
-  return {
-    chapter: chapterNumber,
-    verses: Object.entries(chapter).map(
-      ([verse, text]) => ({
-        verse: Number(verse),
-        text,
-      })
-    ),
-  };
+  return book.chapters.find(
+    c => c.chapter === chapterNumber
+  );
 }
 
-/**
- * Get one verse.
- */
 export async function getVerse(
   bookName: string,
   chapterNumber: number,
   verseNumber: number,
   translation = "KJV"
 ): Promise<BibleVerse | undefined> {
+
   const chapter = await getChapter(
     bookName,
     chapterNumber,
@@ -101,6 +83,6 @@ export async function getVerse(
   );
 
   return chapter?.verses.find(
-    (v) => v.verse === verseNumber
+    v => v.verse === verseNumber
   );
 }

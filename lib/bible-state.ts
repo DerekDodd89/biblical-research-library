@@ -19,7 +19,7 @@ interface BibleState {
 }
 
 export const useBibleState = create<BibleState>((set) => ({
-  translation: "ASV",
+  translation: "KJV",
 
   book: "Romans",
 
