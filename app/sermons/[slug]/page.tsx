@@ -141,6 +141,13 @@ export default async function SermonDetailsPage({
         .includes("presentation")
   );
 
+  /*
+   * Listener handouts:
+   *
+   * Include all actual handout resources while excluding
+   * internal mockup/reference assets.
+   */
+
   const handoutResources = sermon.inventory.filter(
     (resource) => {
       const path = resource.path.toLowerCase();
@@ -168,12 +175,18 @@ export default async function SermonDetailsPage({
 
   const formats: ResourceDetailData["formats"] = [];
 
+  /*
+   * L3 STUDY / ARCHIVE
+   */
+
   if (l3Resources.length > 0) {
     formats.push(
       makeFormat(
         "L3 Study / Archive",
         `${l3Resources.length} exegetical study ${
-          l3Resources.length === 1 ? "resource" : "resources"
+          l3Resources.length === 1
+            ? "resource"
+            : "resources"
         } supporting this sermon.`,
         "Open L3 Resource",
         "archive",
@@ -181,6 +194,10 @@ export default async function SermonDetailsPage({
       )
     );
   }
+
+  /*
+   * L2 SERMON OUTLINE
+   */
 
   if (l2Resources.length > 0) {
     formats.push(
@@ -198,6 +215,10 @@ export default async function SermonDetailsPage({
     );
   }
 
+  /*
+   * POWERPOINT
+   */
+
   if (presentationResources.length > 0) {
     formats.push(
       makeFormat(
@@ -210,20 +231,52 @@ export default async function SermonDetailsPage({
     );
   }
 
+  /*
+   * LISTENER HANDOUTS
+   *
+   * One handout:
+   *   Open the file directly.
+   *
+   * Multiple handouts:
+   *   Open the sermon handout collection page where the
+   *   user can choose individual handouts or download all.
+   */
+
   if (handoutResources.length > 0) {
-    formats.push(
-      makeFormat(
-        "Listener Handouts",
-        `${handoutResources.length} listener ${
-          handoutResources.length === 1
-            ? "handout"
-            : "handouts"
-        } available for this sermon.`,
-        "Open Handout",
-        "handout",
-        handoutResources
-      )
-    );
+    const downloadableHandouts =
+      handoutResources.filter(
+        (resource) => Boolean(resource.downloadUrl)
+      );
+
+    const singleHandout =
+      downloadableHandouts.length === 1
+        ? downloadableHandouts[0]
+        : undefined;
+
+    formats.push({
+      title: "Listener Handouts",
+
+      description: `${handoutResources.length} listener ${
+        handoutResources.length === 1
+          ? "handout"
+          : "handouts"
+      } available for this sermon.`,
+
+      actionLabel:
+        handoutResources.length === 1
+          ? "Open Handout"
+          : "View All Handouts",
+
+      icon: "handout",
+
+      href:
+        handoutResources.length === 1
+          ? singleHandout?.downloadUrl ?? undefined
+          : `/sermons/${sermon.slug}/handouts`,
+
+      available:
+        downloadableHandouts.length > 0,
+    });
   }
 
   /*
@@ -262,23 +315,30 @@ export default async function SermonDetailsPage({
 
   const resource: ResourceDetailData = {
     id: sermon.id,
+
     title: cleanText(sermon.title),
+
     subtitle: cleanText(sermon.subtitle),
 
     moduleName: "Sermons & Outlines",
 
     series: cleanText(sermon.series),
 
-    // The current metadata contains a series title,
-    // not a separate permanent BRL series ID.
+    /*
+     * Current sermon metadata contains the series title,
+     * not a separate permanent BRL series ID.
+     */
     seriesId: undefined,
 
     primaryText: cleanText(sermon.primaryText),
 
     speaker: sermon.speaker,
-    audience: sermon.audience || "General",
 
-    standardLength: sermon.estimatedMinutes,
+    audience:
+      sermon.audience || "General",
+
+    standardLength:
+      sermon.estimatedMinutes,
 
     status:
       sermon.status === "published"
@@ -292,30 +352,48 @@ export default async function SermonDetailsPage({
     preview: preview.slice(0, 5),
 
     availableLengths,
+
     selectedLength,
 
-    lengthSelectorHref: `/sermons/${sermon.slug}`,
+    lengthSelectorHref:
+      `/sermons/${sermon.slug}`,
 
     author: sermon.speaker,
 
-    dateWritten: sermon.dateWritten,
-    publicationDate: sermon.publicationDate,
-    lastUpdated: sermon.lastUpdated,
+    dateWritten:
+      sermon.dateWritten,
 
-    language: sermon.language,
+    publicationDate:
+      sermon.publicationDate,
 
-    relatedResources: sermon.relatedBrls.map(
-      (id) => ({
-        id,
-        title: "Related BRL Study",
-      })
-    ),
+    lastUpdated:
+      sermon.lastUpdated,
+
+    language:
+      sermon.language,
+
+    relatedResources:
+      sermon.relatedBrls.map(
+        (id) => ({
+          id,
+          title: "Related BRL Study",
+        })
+      ),
 
     formats,
   };
 
+  /*
+   * ---------------------------------------------------------
+   * PAGE
+   * ---------------------------------------------------------
+   */
+
   return (
     <main className="relative min-h-screen overflow-hidden bg-neutral-950 text-white">
+
+      {/* Sermons Module Background */}
+
       <div
         aria-hidden="true"
         className="pointer-events-none fixed inset-0 bg-cover bg-center bg-no-repeat opacity-[0.16]"
@@ -325,13 +403,19 @@ export default async function SermonDetailsPage({
         }}
       />
 
+      {/* Background Tint */}
+
       <div
         aria-hidden="true"
         className="pointer-events-none fixed inset-0 bg-neutral-950/10"
       />
 
+      {/* Page Content */}
+
       <div className="relative z-10">
+
         <div className="mx-auto max-w-7xl px-8 py-8">
+
           <ModuleNavigation
             moduleName="Sermons & Outlines"
             currentPage="Sermon Details"
@@ -340,10 +424,17 @@ export default async function SermonDetailsPage({
           />
 
           <div className="mx-auto max-w-6xl pb-20 pt-2">
-            <ResourceDetails resource={resource} />
+
+            <ResourceDetails
+              resource={resource}
+            />
+
           </div>
+
         </div>
+
       </div>
+
     </main>
   );
 }

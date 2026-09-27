@@ -1,123 +1,86 @@
+import Link from "next/link";
+
 export default function AcademyHero() {
   return (
     <section
-      className="relative overflow-hidden border-b border-amber-900/20 bg-cover bg-center"
+      className="relative overflow-hidden border-b border-amber-500/20 bg-[#061b35] bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/home/academy-hero.png')",
+        backgroundImage: "url('/images/academy/academy-background.png')",
       }}
     >
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-black/60" />
+      {/* Overlay keeps text readable over the Academy artwork */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#04162d]/95 via-[#061b35]/80 to-[#061b35]/25" />
 
-      <div className="relative mx-auto grid min-h-[340px] max-w-[1500px] grid-cols-1 items-center gap-8 px-6 py-10 lg:grid-cols-[250px_1fr_230px]">
-        {/* Scripture Card */}
-        <aside className="rounded-xl border border-amber-200/50 bg-[#e8d0a5]/95 p-6 text-center text-[#342416] shadow-xl backdrop-blur-sm">
-          <p className="font-serif text-xl leading-relaxed">
-            “Train up a child
-            <br />
-            in the way he should go,
-            <br />
-            and when he is old
-            <br />
-            he will not depart from it.”
+      <div className="relative mx-auto flex min-h-[460px] max-w-7xl items-center px-6 py-16 lg:px-8">
+        <div className="max-w-3xl">
+          {/* Eyebrow */}
+          <p className="mb-4 text-xs font-bold uppercase tracking-[0.32em] text-amber-400">
+            Biblical Research Library • Academy
           </p>
 
-          <p className="mt-4 font-serif font-bold italic">Proverbs 22:6</p>
-        </aside>
-
-        {/* Center Hero */}
-        <div className="text-center text-white">
-          <p className="mb-2 text-xs font-bold uppercase tracking-[0.35em] text-amber-200">
-            Rooted in Truth • Learning for Life
-          </p>
-
-          <h1 className="font-serif text-5xl font-bold tracking-wide drop-shadow-lg md:text-6xl">
-            ANCHORS AWAY
+          {/* Main Heading */}
+          <h1 className="font-serif text-5xl font-bold leading-[1.05] text-white drop-shadow-lg md:text-6xl lg:text-7xl">
+            Know the Word.
+            <br />
+            <span className="text-amber-400">Develop the Message.</span>
+            <br />
+            Preach &amp; Teach the Word.
           </h1>
 
-          <div className="mt-1 text-xl font-medium tracking-[0.35em] drop-shadow-md md:text-2xl">
-            HOMESCHOOL ACADEMY
-          </div>
-
-          <p className="mt-3 font-serif text-xl italic text-amber-50 drop-shadow-md">
-            Learning together. Growing in faith. Exploring God&apos;s world.
+          {/* Description */}
+          <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-200 md:text-xl">
+            A comprehensive, competency-based training path designed to equip
+            faithful students of Scripture to understand God&apos;s Word,
+            communicate it clearly, and serve effectively.
           </p>
 
-          {/* Search */}
-          <div className="mx-auto mt-7 flex max-w-3xl overflow-hidden rounded-lg bg-white shadow-2xl">
-            <input
-              className="min-w-0 flex-1 px-5 py-4 text-sm text-slate-800 outline-none"
-              placeholder="Search lessons, subjects, printables, and more..."
-              type="text"
-            />
+          {/* Three-level summary */}
+          <div className="mt-7 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-slate-200">
+            <span>
+              <span className="mr-2 text-amber-400">01</span>
+              Know the Word
+            </span>
 
-            <select
-              className="hidden border-l border-slate-200 bg-white px-5 text-sm text-slate-700 sm:block"
-              defaultValue="all"
-            >
-              <option value="all">All Subjects</option>
-              <option>Bible</option>
-              <option>History</option>
-              <option>Science</option>
-              <option>Foreign Languages</option>
-              <option>Art</option>
-              <option>Language Arts</option>
-              <option>Math</option>
-              <option>P.E.</option>
-            </select>
+            <span>
+              <span className="mr-2 text-amber-400">02</span>
+              Develop the Message
+            </span>
 
-            <button className="bg-[#0b3b68] px-7 font-semibold text-white transition hover:bg-[#082b4c]">
-              Search
-            </button>
+            <span>
+              <span className="mr-2 text-amber-400">03</span>
+              Preach &amp; Teach
+            </span>
           </div>
 
-          {/* Quick Links */}
-          <div className="mt-4 flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs font-medium text-white drop-shadow-md">
-            <span className="font-bold text-amber-200">Quick Links:</span>
-            <a className="hover:text-amber-200" href="#subjects">
-              Bible
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              History
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              Science
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              Languages
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              Art
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              Language Arts
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              Math
-            </a>
-            <a className="hover:text-amber-200" href="#subjects">
-              P.E.
-            </a>
+          {/* Actions */}
+          <div className="mt-9 flex flex-wrap gap-4">
+            <Link
+              href="/academy/level-1"
+              className="rounded-lg bg-amber-500 px-7 py-3.5 text-sm font-bold text-[#061b35] shadow-lg transition hover:bg-amber-400"
+            >
+              Begin the Journey →
+            </Link>
+
+            <Link
+              href="/academy/courses"
+              className="rounded-lg border border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/20"
+            >
+              Explore the Program
+            </Link>
+          </div>
+
+          {/* Competency note */}
+          <div className="mt-8 max-w-2xl border-l-2 border-amber-400 pl-4">
+            <p className="text-sm leading-6 text-slate-300">
+              Progress is based on demonstrated competency and completion —
+              not credit hours or seat time.
+            </p>
           </div>
         </div>
-
-        {/* Academy Values */}
-        <aside className="hidden rounded-xl border border-amber-200/40 bg-[#2a1b10]/80 p-6 text-center text-amber-50 shadow-xl backdrop-blur-sm lg:block">
-          <div className="text-3xl">⚓</div>
-
-          <p className="mt-3 font-serif text-2xl leading-relaxed">
-            Learn
-            <br />
-            Explore
-            <br />
-            Create
-            <br />
-            Serve
-            <br />
-            Together
-          </p>
-        </aside>
       </div>
+
+      {/* Bottom accent */}
+      <div className="absolute bottom-0 left-0 h-[3px] w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-70" />
     </section>
   );
 }
